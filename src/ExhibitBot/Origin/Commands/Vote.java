@@ -16,17 +16,17 @@ public class Vote extends ListenerAdapter {
         String message = e.getMessage().getContent();
 
         if (message.equalsIgnoreCase("!vote") && !(e.getAuthor().isBot())) {
-            e.getTextChannel().sendMessage("We appreciate all the votes we can get, it really has a huge impact on the server!" +
-                    "\r\n-----------" +
-                    "\r\nVoting Site 1 - http://minecraft-server-list.com/server/331452/vote/" +
-                    "\r\nVoting Site 2 - http://minecraft-mp.com/server/108491/vote/" +
-                    "\r\nVoting Site 3 - http://minecraftservers.org/server/330550" +
-                    "\r\n-----------" +
-                    "\r\nPlanet Minecraft - http://www.planetminecraft.com/server/exhibit-minecraft/vote" +
-                    "\r\nNote that Planet Minecraft is an Unlinked voting site.").queue();
+            e.getTextChannel().sendMessage("```We appreciate all the votes we can get, it really has a huge impact on the server!" +
+                    "\n-----------" +
+                    "\nVoting Site 1 - http://minecraft-server-list.com/server/331452/vote/" +
+                    "\nVoting Site 2 - http://minecraft-mp.com/server/108491/vote/" +
+                    "\nVoting Site 3 - http://minecraftservers.org/server/330550" +
+                    "\n-----------" +
+                    "\nPlanet Minecraft - http://www.planetminecraft.com/server/exhibit-minecraft/vote" +
+                    "\nNote that Planet Minecraft is an Unlinked voting site.```").queue();
 
 
-            Logging.CLog(e.getGuild().getName(), e.getAuthor().getName(), message);
+            Logging.DataLog(e.getGuild().getName(), e.getAuthor().getName(), message, true, e.getGuild());
         }
 
 

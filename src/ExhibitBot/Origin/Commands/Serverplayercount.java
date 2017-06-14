@@ -7,28 +7,18 @@ import net.dv8tion.jda.core.hooks.ListenerAdapter;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
-import java.net.ConnectException;
 import java.net.Socket;
 import java.net.UnknownHostException;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Random;
 
 /**
  * Created by josep on 12/06/2017.
  */
 public class Serverplayercount extends ListenerAdapter {
-
-
-
-
-
-
     @Override
     public void onMessageReceived(MessageReceivedEvent e) {
         String message = e.getMessage().getContent();
 
-        if (message.startsWith("!playercount") && !(e.getAuthor().isBot())) {
+        if (message.equalsIgnoreCase("!playercount") && !(e.getAuthor().isBot())) {
 
             try {
                 Socket sock = new Socket("play.exhibit-minecraft.com", 25565);
@@ -55,8 +45,9 @@ public class Serverplayercount extends ListenerAdapter {
                 int onlinePlayers = Integer.parseInt(data[1]);
                 int maxPlayers = Integer.parseInt(data[2]);
 
-                e.getTextChannel().sendMessage(e.getAuthor().getAsMention() + " There are currently " +  onlinePlayers + "/" + maxPlayers +  " players online").queue();
-                Logging.CLog(e.getGuild().getName(), e.getAuthor().getName(), message);
+                e.getTextChannel().sendMessage(e.getAuthor().getAsMention() + " There are currently " +
+                        onlinePlayers + "/" + maxPlayers +  " players online on the Minecraft Server!").queue();
+                Logging.DataLog(e.getGuild().getName(), e.getAuthor().getName(), message, true, e.getGuild());
 
 
             } catch (UnknownHostException ev) {

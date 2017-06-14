@@ -16,14 +16,18 @@ public class Commands extends ListenerAdapter {
     public void onMessageReceived(MessageReceivedEvent e){
         String message = e.getMessage().getContent();
         String sendMessage = "```!commands - Shows a list of all commands " +
-                "\r\n!ip - Shows the current server IP " +
-                "\r\n!website - Shows our website link" +
-                "\r\n!hello - Greets you" +
-                "\r\n!vote - Shows our voting links" +
-                "\r\n!flipcoin - Flips a coin" +
-                "\r\n!playercount - Shows how many players are playing on the server```";
+                "\n!ip - Shows the current server IP " +
+                "\n!website - Shows our website link" +
+                "\n!hello - Greets you" +
+                "\n!vote - Shows our voting links" +
+                "\n!flipcoin - Flips a coin" +
+                "\n!playercount - Shows how many players are playing on the server" +
+                "\n!diceroll - Enables you to roll a dice" +
+                 "\n!membercount - Shows the total amount of members on the discord server ```";
 
-        if (message.startsWith("!commands") && !(e.getAuthor().isBot())) {
+        if (message.equalsIgnoreCase("!commands") && !(e.getAuthor().isBot())) {
+
+            Logging.DataLog(e.getGuild().getName(), e.getAuthor().getName(), message, true, e.getGuild());
 
             if (e.isFromType(ChannelType.TEXT)) {
                 e.getAuthor().openPrivateChannel().complete().sendMessage(sendMessage).queue();
@@ -44,7 +48,7 @@ public class Commands extends ListenerAdapter {
                 return;
             }
 
-            Logging.CLog(e.getGuild().getName(), e.getAuthor().getName(), message);
+
         }
 
         }

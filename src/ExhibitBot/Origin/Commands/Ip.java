@@ -15,11 +15,11 @@ public class Ip extends ListenerAdapter {
     public void onMessageReceived(MessageReceivedEvent e){
         String message = e.getMessage().getContent();
 
-        if (message.startsWith("!ip") && !(e.getAuthor().isBot())) {
-            e.getTextChannel().sendMessage("The server IP is " + SERVER_IP).queue();
+        if (message.equalsIgnoreCase("!ip") && !(e.getAuthor().isBot())) {
+            e.getTextChannel().sendMessage("```The server IP is " + SERVER_IP + "```").queue();
 
 
-            Logging.CLog(e.getGuild().getName(), e.getAuthor().getName(), message);
+            Logging.DataLog(e.getGuild().getName(), e.getAuthor().getName(), message, true, e.getGuild());
         }
 
 
