@@ -7,26 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="acc4bcd2-35e1-48e8-8963-e38037cc2990" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ExhibitBot/Origin/Commands/TotalMembers.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ExhibitBot/Origin/GuildMembers/GuildJoin.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ExhibitBot/Origin/GuildMembers/GuildLeave.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ExhibitBot/Origin/GuildMembers/NickChange.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ExhibitBot/Origin/GuildVoice/VoiceJoin.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ExhibitBot/Origin/GuildVoice/VoiceLeave.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ExhibitBot/Origin/GuildVoice/VoiceMove.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ExhibitBot/Origin/Commands/Commands.java" afterPath="$PROJECT_DIR$/src/ExhibitBot/Origin/Commands/Commands.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ExhibitBot/Origin/Commands/Diceroll.java" afterPath="$PROJECT_DIR$/src/ExhibitBot/Origin/Commands/Diceroll.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ExhibitBot/Origin/Commands/Flipcoin.java" afterPath="$PROJECT_DIR$/src/ExhibitBot/Origin/Commands/Flipcoin.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ExhibitBot/Origin/Commands/Hello.java" afterPath="$PROJECT_DIR$/src/ExhibitBot/Origin/Commands/Hello.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ExhibitBot/Origin/Commands/Ip.java" afterPath="$PROJECT_DIR$/src/ExhibitBot/Origin/Commands/Ip.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ExhibitBot/Origin/Commands/Serverplayercount.java" afterPath="$PROJECT_DIR$/src/ExhibitBot/Origin/Commands/Serverplayercount.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ExhibitBot/Origin/Commands/Vote.java" afterPath="$PROJECT_DIR$/src/ExhibitBot/Origin/Commands/Vote.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ExhibitBot/Origin/Commands/Website.java" afterPath="$PROJECT_DIR$/src/ExhibitBot/Origin/Commands/Website.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ExhibitBot/Origin/Main.java" afterPath="$PROJECT_DIR$/src/ExhibitBot/Origin/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ExhibitBot/Origin/Other/Logging.java" afterPath="$PROJECT_DIR$/src/ExhibitBot/Origin/Other/Logging.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ExhibitBot/Origin/Other/WriteLog.java" afterPath="$PROJECT_DIR$/src/ExhibitBot/Origin/Other/WriteLog.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ExhibitBot/Origin/GuildMembers/GuildLeave.java" afterPath="$PROJECT_DIR$/src/ExhibitBot/Origin/GuildMembers/GuildLeave.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,103 +25,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Vote.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ExhibitBot/Origin/Commands/Vote.java">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ExhibitBot/Origin/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Constants.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ExhibitBot/Origin/Other/Constants.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="44" lean-forward="false" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Website.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ExhibitBot/Origin/Commands/Website.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="18" column="91" lean-forward="false" selection-start-line="18" selection-start-column="91" selection-end-line="18" selection-end-column="91" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TotalMembers.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ExhibitBot/Origin/Commands/TotalMembers.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Commands.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ExhibitBot/Origin/Commands/Commands.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="37" column="12" lean-forward="false" selection-start-line="37" selection-start-column="12" selection-end-line="40" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Diceroll.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ExhibitBot/Origin/Commands/Diceroll.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="15" column="37" lean-forward="false" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Flipcoin.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ExhibitBot/Origin/Commands/Flipcoin.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="23" column="37" lean-forward="false" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Ip.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ExhibitBot/Origin/Commands/Ip.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="17" column="37" lean-forward="false" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Hello.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ExhibitBot/Origin/Commands/Hello.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="15" column="37" lean-forward="false" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Serverplayercount.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ExhibitBot/Origin/Commands/Serverplayercount.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="47" column="47" lean-forward="false" selection-start-line="47" selection-start-column="47" selection-end-line="47" selection-end-column="47" />
+            <state relative-caret-position="204">
+              <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -181,8 +72,6 @@
         <option value="$PROJECT_DIR$/src/ExhibitBot/Origin/GuildVoice/VoiceJoin.java" />
         <option value="$PROJECT_DIR$/src/ExhibitBot/Origin/Other/Logging.java" />
         <option value="$PROJECT_DIR$/src/ExhibitBot/Origin/GuildMembers/GuildJoin.java" />
-        <option value="$PROJECT_DIR$/src/ExhibitBot/Origin/GuildMembers/GuildLeave.java" />
-        <option value="$PROJECT_DIR$/src/ExhibitBot/Origin/Commands/Website.java" />
         <option value="$PROJECT_DIR$/src/ExhibitBot/Origin/Commands/Vote.java" />
         <option value="$PROJECT_DIR$/src/ExhibitBot/Origin/Main.java" />
         <option value="$PROJECT_DIR$/src/ExhibitBot/Origin/Commands/Commands.java" />
@@ -193,6 +82,8 @@
         <option value="$PROJECT_DIR$/src/ExhibitBot/Origin/Commands/TotalMembers.java" />
         <option value="$PROJECT_DIR$/src/ExhibitBot/Origin/Commands/Serverplayercount.java" />
         <option value="$PROJECT_DIR$/src/ExhibitBot/Origin/Other/Constants.java" />
+        <option value="$PROJECT_DIR$/src/ExhibitBot/Origin/Commands/Website.java" />
+        <option value="$PROJECT_DIR$/src/ExhibitBot/Origin/GuildMembers/GuildLeave.java" />
       </list>
     </option>
   </component>
@@ -834,7 +725,7 @@
       <updated>1497366392368</updated>
       <workItem from="1497366397741" duration="3417000" />
       <workItem from="1497456895366" duration="1218000" />
-      <workItem from="1497465832709" duration="9291000" />
+      <workItem from="1497465832709" duration="9391000" />
     </task>
     <task id="LOCAL-00001" summary="Bot">
       <created>1497366914556</created>
@@ -843,15 +734,22 @@
       <option name="project" value="LOCAL" />
       <updated>1497366914556</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="New features">
+      <created>1497475153938</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1497475153938</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13926000" />
+    <option name="totallyTimeSpent" value="14026000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -868,7 +766,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Statistic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -893,7 +791,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Bot" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bot" />
+    <MESSAGE value="New features" />
+    <option name="LAST_COMMIT_MESSAGE" value="New features" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -908,9 +807,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -918,7 +815,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -970,9 +869,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -980,7 +877,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="24" lean-forward="false" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1037,6 +936,132 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ExhibitBot/Origin/Commands/Commands.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="7" lean-forward="true" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ExhibitBot/Origin/Commands/Diceroll.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ExhibitBot/Origin/Commands/Flipcoin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ExhibitBot/Origin/Commands/Hello.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ExhibitBot/Origin/Commands/Ip.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ExhibitBot/Origin/Commands/Serverplayercount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ExhibitBot/Origin/Commands/TotalMembers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ExhibitBot/Origin/Commands/Vote.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ExhibitBot/Origin/Commands/Website.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="39" lean-forward="false" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ExhibitBot/Origin/GuildMembers/GuildJoin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ExhibitBot/Origin/GuildMembers/GuildLeave.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="39" lean-forward="false" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ExhibitBot/Origin/GuildMembers/NickChange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ExhibitBot/Origin/GuildVoice/VoiceJoin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ExhibitBot/Origin/GuildVoice/VoiceLeave.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -1057,10 +1082,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ExhibitBot/Origin/GuildMembers/NickChange.java">
+    <entry file="file://$PROJECT_DIR$/src/ExhibitBot/Origin/Other/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="75" lean-forward="false" selection-start-line="3" selection-start-column="75" selection-end-line="3" selection-end-column="75" />
+        <state relative-caret-position="170">
+          <caret line="10" column="44" lean-forward="false" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
           <folding />
         </state>
       </provider>
@@ -1073,124 +1098,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ExhibitBot/Origin/GuildMembers/GuildJoin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="14" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ExhibitBot/Origin/GuildVoice/VoiceJoin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ExhibitBot/Origin/GuildMembers/GuildLeave.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ExhibitBot/Origin/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="64" column="47" lean-forward="false" selection-start-line="64" selection-start-column="47" selection-end-line="64" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ExhibitBot/Origin/Commands/Diceroll.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="15" column="37" lean-forward="false" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ExhibitBot/Origin/Commands/Flipcoin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="23" column="37" lean-forward="false" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ExhibitBot/Origin/Commands/Hello.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="37" lean-forward="false" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ExhibitBot/Origin/Commands/Ip.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="17" column="37" lean-forward="false" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ExhibitBot/Origin/Commands/Vote.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="19" column="21" lean-forward="false" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ExhibitBot/Origin/Commands/Website.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="18" column="91" lean-forward="false" selection-start-line="18" selection-start-column="91" selection-end-line="18" selection-end-column="91" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ExhibitBot/Origin/Commands/Commands.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="37" column="12" lean-forward="false" selection-start-line="37" selection-start-column="12" selection-end-line="40" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ExhibitBot/Origin/Commands/TotalMembers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ExhibitBot/Origin/Commands/Serverplayercount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="47" column="47" lean-forward="false" selection-start-line="47" selection-start-column="47" selection-end-line="47" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ExhibitBot/Origin/Other/Constants.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="44" lean-forward="false" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+        <state relative-caret-position="204">
+          <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
           <folding />
         </state>
       </provider>

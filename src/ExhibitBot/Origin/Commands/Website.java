@@ -1,7 +1,6 @@
 package ExhibitBot.Origin.Commands;
 
 import ExhibitBot.Origin.Other.Logging;
-import net.dv8tion.jda.core.events.guild.voice.GuildVoiceJoinEvent;
 import net.dv8tion.jda.core.events.message.MessageReceivedEvent;
 import net.dv8tion.jda.core.hooks.ListenerAdapter;
 

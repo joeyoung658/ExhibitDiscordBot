@@ -1,7 +1,6 @@
 package ExhibitBot.Origin.GuildMembers;
 
 import ExhibitBot.Origin.Other.Logging;
-import net.dv8tion.jda.core.events.guild.member.GuildMemberJoinEvent;
 import net.dv8tion.jda.core.events.guild.member.GuildMemberLeaveEvent;
 import net.dv8tion.jda.core.hooks.ListenerAdapter;
 
