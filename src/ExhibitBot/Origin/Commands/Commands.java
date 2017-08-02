@@ -23,7 +23,10 @@ public class Commands extends ListenerAdapter {
                 "\n!flipcoin - Flips a coin" +
                 "\n!playercount - Shows how many players are playing on the server" +
                 "\n!diceroll - Enables you to roll a dice" +
-                 "\n!membercount - Shows the total amount of members on the discord server ```";
+                 "\n!membercount - Shows the total amount of members on the discord server" +
+                "\n!UpTime - Shows how long the bot has been online" +
+                "\nMcStats - Shows the Minecraft Service Status (Still in development)" +
+                "\n!Author - Shows information about the bot ```";
 
         if (message.equalsIgnoreCase("!commands") && !(e.getAuthor().isBot())) {
 
