@@ -8,6 +8,7 @@ import java.util.Date;
  */
 public class Constants {
 
+
     public static final String COMMAND_PREFIX = "*";
     public static final String BOT_TOKEN = "";
     public static final String SERVER_IP = "play.exhibit-minecraft.com";
