@@ -5,6 +5,7 @@ import net.dv8tion.jda.core.events.message.MessageReceivedEvent;
 import net.dv8tion.jda.core.exceptions.PermissionException;
 import net.dv8tion.jda.core.hooks.ListenerAdapter;
 
+import static ExhibitBot.Origin.Other.Constants.COMMAND_PREFIX;
 
 
 /**
@@ -16,7 +17,7 @@ public class Vote extends ListenerAdapter {
     public void onMessageReceived(MessageReceivedEvent e){
         String message = e.getMessage().getContent();
 
-        if (message.equalsIgnoreCase("!vote") && !(e.getAuthor().isBot())) {
+        if (message.equalsIgnoreCase(COMMAND_PREFIX + "vote") && !(e.getAuthor().isBot())) {
             e.getTextChannel().sendMessage("```We appreciate all the votes we can get, it really has a huge impact on the server!" +
                     "\n-----------" +
                     "\nVoting Site 1 - http://minecraft-server-list.com/server/331452/vote/" +

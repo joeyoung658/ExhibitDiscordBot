@@ -11,6 +11,8 @@ import java.io.IOException;
 import java.net.Socket;
 import java.net.UnknownHostException;
 
+import static ExhibitBot.Origin.Other.Constants.COMMAND_PREFIX;
+
 /**
  * Created by josep on 12/06/2017.
  */
@@ -19,7 +21,7 @@ public class Serverplayercount extends ListenerAdapter {
     public void onMessageReceived(MessageReceivedEvent e) {
         String message = e.getMessage().getContent();
 
-        if (message.equalsIgnoreCase("!playercount") && !(e.getAuthor().isBot())) {
+        if (message.equalsIgnoreCase(COMMAND_PREFIX + "playercount") && !(e.getAuthor().isBot())) {
 
             try {
                 Socket sock = new Socket("play.exhibit-minecraft.com", 25565);

@@ -2,9 +2,8 @@ package ExhibitBot.Origin;
 
 import ExhibitBot.Origin.Commands.*;
 
-import ExhibitBot.Origin.GuildMembers.GuildJoin;
-import ExhibitBot.Origin.GuildMembers.GuildLeave;
-import ExhibitBot.Origin.GuildMembers.NickChange;
+import ExhibitBot.Origin.GuildMembers.*;
+import ExhibitBot.Origin.GuildVoice.*;
 import net.dv8tion.jda.core.AccountType;
 import net.dv8tion.jda.core.JDA;
 import net.dv8tion.jda.core.JDABuilder;
@@ -23,22 +22,14 @@ import static ExhibitBot.Origin.Other.Constants.BotStartTime;
  * Created by josep on 10/06/2017.
  */
 public class Main {
-
-//    public static JDABuilder jda;
     public static JDABuilder discord;
     public static JDA jda;
 
 
     public static void main(String[] args){
-//         try {
-//            jda = new JDABuilder(AccountType.BOT).buildBlocking();
-//
-//         } catch (LoginException | InterruptedException | RateLimitedException e) {
-//           e.printStackTrace();
-//        }
+
 
         //Establishes connection with jda
-
         discord = new JDABuilder(AccountType.BOT);
         discord.setToken(BOT_TOKEN);
         discord.setAudioEnabled(true);
@@ -54,9 +45,8 @@ public class Main {
         }
 
 
-
         registerCommands();
-       // registerGuildVoiceEvents();
+        registerGuildVoiceEvents();
         registerGuildMemberEvents();
         BotStartTimeRecord();
 
@@ -75,11 +65,11 @@ public class Main {
         jda.addEventListener(new UpTime());
         jda.addEventListener(new McStats());
     }
-//    private static void registerGuildVoiceEvents(){
-//        jda.addEventListener(new VoiceJoin());
-//        jda.addEventListener(new VoiceLeave());
-//        jda.addEventListener(new VoiceMove());
-//    }
+    private static void registerGuildVoiceEvents(){
+        jda.addEventListener(new VoiceJoin());
+        jda.addEventListener(new VoiceLeave());
+        jda.addEventListener(new VoiceMove());
+    }
     private static void registerGuildMemberEvents(){
         jda.addEventListener(new NickChange());
         jda.addEventListener(new GuildJoin());

@@ -11,7 +11,7 @@ import net.dv8tion.jda.core.hooks.ListenerAdapter;
 public class GuildLeave extends ListenerAdapter {
     @Override
     public void onGuildMemberLeave(GuildMemberLeaveEvent e){
-        try {Logging.DataLog( e.getGuild().getName(), e.getMember().getUser().getName() , "left the jda server! Total members - " +
+        try {Logging.DataLog( e.getGuild().getName(), e.getMember().getUser().getName() , "left the discord server! Total members now - " +
                 e.getGuild().getMembers().size(), true, e.getGuild());}catch (PermissionException er){}
     }
 }

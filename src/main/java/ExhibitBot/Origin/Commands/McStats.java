@@ -6,7 +6,7 @@ import net.dv8tion.jda.core.events.message.MessageReceivedEvent;
 import net.dv8tion.jda.core.exceptions.PermissionException;
 import net.dv8tion.jda.core.hooks.ListenerAdapter;
 
-
+import static ExhibitBot.Origin.Other.Constants.COMMAND_PREFIX;
 
 
 /**
@@ -20,7 +20,7 @@ public class McStats extends ListenerAdapter {
         String message = e.getMessage().getContent();
 
 
-        if (message.equalsIgnoreCase("!McStats") && !(e.getAuthor().isBot())) {
+        if (message.equalsIgnoreCase(COMMAND_PREFIX + "McStats") && !(e.getAuthor().isBot())) {
 
             try {
                 Stats = URLReader.URLRead("https://status.mojang.com/check");

@@ -7,6 +7,8 @@ import net.dv8tion.jda.core.events.message.MessageReceivedEvent;
 import net.dv8tion.jda.core.exceptions.PermissionException;
 import net.dv8tion.jda.core.hooks.ListenerAdapter;
 
+import static ExhibitBot.Origin.Other.Constants.COMMAND_PREFIX;
+
 
 /**
  * Created by josep on 10/06/2017.
@@ -16,20 +18,20 @@ public class Commands extends ListenerAdapter {
     @Override
     public void onMessageReceived(MessageReceivedEvent e){
         String message = e.getMessage().getContent();
-        String sendMessage = "```!commands - Shows a list of all commands " +
-                "\n!ip - Shows the current server IP " +
-                "\n!website - Shows our website link" +
-                "\n!hello - Greets you" +
-                "\n!vote - Shows our voting links" +
-                "\n!flipcoin - Flips a coin" +
-                "\n!playercount - Shows how many players are playing on the server" +
-                "\n!diceroll - Enables you to roll a dice" +
-                 "\n!membercount - Shows the total amount of members on the jda server" +
-                "\n!UpTime - Shows how long the bot has been online" +
-                "\n!McStats - Shows the Minecraft Service Status (Still in development)" +
-                "\n!Author - Shows information about the bot ```";
+        String sendMessage = "```" +COMMAND_PREFIX + "commands - Shows a list of all commands " +
+                "\n" + COMMAND_PREFIX + "ip - Shows the current server IP " +
+                "\n" + COMMAND_PREFIX + "website - Shows our website link" +
+                "\n" + COMMAND_PREFIX + "hello - Greets you" +
+                "\n" + COMMAND_PREFIX + "vote - Shows our voting links" +
+                "\n" + COMMAND_PREFIX + "flipcoin - Flips a coin" +
+                "\n" + COMMAND_PREFIX + "playercount - Shows how many players are playing on the server" +
+                "\n" + COMMAND_PREFIX + "diceroll - Enables you to roll a dice" +
+                 "\n" + COMMAND_PREFIX + "membercount - Shows the total amount of members on the discord server" +
+                "\n" + COMMAND_PREFIX + "UpTime - Shows how long the bot has been online" +
+                "\n" + COMMAND_PREFIX + "McStats - Shows the Minecraft Service Status (Still in development)" +
+                "\n" + COMMAND_PREFIX + "Author - Shows information about the bot ```";
 
-        if (message.equalsIgnoreCase("!commands") && !(e.getAuthor().isBot())) {
+        if (message.equalsIgnoreCase(COMMAND_PREFIX + "commands") && !(e.getAuthor().isBot())) {
 
 
 

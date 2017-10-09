@@ -14,42 +14,25 @@ import java.util.List;
  */
 public class Logging {
 
-//    public static void DataLog(String guildN, String aName, String message){
-//        /*
-//        Logs to console
-//         */
-//        String log = guildN + ": " + aName + ": " + message;
-//        System.out.println(log);
-//
-//    }
+    public static void DataLog(String guildN, String aName, String message){
+        /*
+        Logs to console
+         */
+        String log = guildN + ": " + aName + ": " + message;
+        System.out.println(log);
 
-    public static void DataLog(String guildN, String aName, String message, Boolean logchat, Guild guild) throws PermissionException{
+    }
+
+    public static void DataLog(String guildN, String aName, String message, Boolean logchat, Guild guild) throws PermissionException {
         /*
         Logs to logging channel within the server
          */
-
         String log = aName + ": " + message;
-        List<TextChannel> guildchannels = guild.getTextChannels();
+        if (logchat) {
 
-
-        for (TextChannel channel: guildchannels){
-            if (channel.getName().equalsIgnoreCase("general")){
-                channel.sendMessage("```" + log + "```").queue();
+            if (!(guild.getTextChannelsByName("Logging", true).isEmpty())) {
+                guild.getTextChannelsByName("Logging", true).get(0).sendMessage("```" + log + "```").queue();
             }
         }
-
-
-
-
-//        if (logchat) {
-//
-//            if (!(guild.getTextChannelsByName("Logging", true).isEmpty())) {
-//
-//                Logging.sendMessage("```" + log + "```").queue();
-//
-//                }
-//        }
     }
-
-
 }

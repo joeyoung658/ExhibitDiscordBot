@@ -9,6 +9,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
+import static ExhibitBot.Origin.Other.Constants.COMMAND_PREFIX;
+
 /**
  * Created by josep on 11/06/2017.
  */
@@ -22,15 +24,12 @@ public class Flipcoin extends ListenerAdapter {
         coin.add("Heads");
         coin.add("Tails");
 
-        if (message.equalsIgnoreCase("!flipcoin") && !(e.getAuthor().isBot())) {
+        if (message.equalsIgnoreCase(COMMAND_PREFIX + "flipcoin") && !(e.getAuthor().isBot())) {
             Random rand = new Random();
             int random = rand.nextInt(2) + 0;
             e.getTextChannel().sendMessage( e.getAuthor().getAsMention() + " flipped " + coin.get(random)).queue();
-
-
             try {Logging.DataLog(e.getGuild().getName(), e.getAuthor().getName(), message, true, e.getGuild());} catch (PermissionException er){}
 
-            e.getTextChannel().sendMessage("Test").queue();
         }
     }
 }

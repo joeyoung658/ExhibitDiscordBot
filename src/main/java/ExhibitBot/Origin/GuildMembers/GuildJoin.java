@@ -11,7 +11,7 @@ import net.dv8tion.jda.core.hooks.ListenerAdapter;
 public class GuildJoin extends ListenerAdapter {
     @Override
     public void onGuildMemberJoin(GuildMemberJoinEvent e){
-        try {Logging.DataLog( e.getGuild().getName(), e.getMember().getUser().getName() , "joined the jda server! Total members - " +
+        try {Logging.DataLog( e.getGuild().getName(), e.getMember().getUser().getName() , "joined the discord server! Total members - " +
                 e.getGuild().getMembers().size(), true, e.getGuild());}catch (PermissionException er){}
     }
 }

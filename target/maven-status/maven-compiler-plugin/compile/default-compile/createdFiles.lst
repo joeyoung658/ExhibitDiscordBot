@@ -1,0 +1,3 @@
+ExhibitBot\Origin\GuildVoice\VoiceJoin.class
+ExhibitBot\Origin\GuildVoice\VoiceLeave.class
+ExhibitBot\Origin\GuildVoice\VoiceMove.class

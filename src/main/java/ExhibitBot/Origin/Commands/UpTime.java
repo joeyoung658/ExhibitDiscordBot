@@ -11,6 +11,7 @@ import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
 import static ExhibitBot.Origin.Other.Constants.BotStartTime;
+import static ExhibitBot.Origin.Other.Constants.COMMAND_PREFIX;
 import static ExhibitBot.Origin.Other.Constants.SERVER_IP;
 
 /**
@@ -22,7 +23,7 @@ public class UpTime extends ListenerAdapter {
     public void onMessageReceived(MessageReceivedEvent e){
         String message = e.getMessage().getContent();
 
-        if (message.equalsIgnoreCase("!UpTime") && !(e.getAuthor().isBot())) {
+        if (message.equalsIgnoreCase(COMMAND_PREFIX + "UpTime") && !(e.getAuthor().isBot())) {
             Date CurrentDate = new Date();
             long difference = (CurrentDate.getTime() - BotStartTime.getTime());
             long seconds = difference/1000;

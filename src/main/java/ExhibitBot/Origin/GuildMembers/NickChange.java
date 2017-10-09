@@ -19,10 +19,10 @@ public class NickChange extends ListenerAdapter {
         }
 
         if (newnick == null) {
-            try{Logging.DataLog(e.getGuild().getName(),  e.getMember().getUser().getName()   , " Removed nick: Old =  " + oldnick, true, e.getGuild() );}catch (PermissionException er){}
+            try{Logging.DataLog(e.getGuild().getName(),  e.getMember().getUser().getName()   , " has removed their nickname of \""+ oldnick + "\"", true, e.getGuild() );}catch (PermissionException er){}
         } else {
-            try{Logging.DataLog(e.getGuild().getName(),  e.getMember().getUser().getName()   , " Changed nick: New =  " + newnick
-                    + " Old =  "  + oldnick, true, e.getGuild());}catch (PermissionException er){}
+            try{Logging.DataLog(e.getGuild().getName(),  e.getMember().getUser().getName()   , " has changed their nickname to \"" + newnick
+                    + "\" from \""  + oldnick + "\"", true, e.getGuild());}catch (PermissionException er){}
         }
 
     }

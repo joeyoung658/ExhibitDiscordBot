@@ -5,6 +5,7 @@ import net.dv8tion.jda.core.events.message.MessageReceivedEvent;
 import net.dv8tion.jda.core.exceptions.PermissionException;
 import net.dv8tion.jda.core.hooks.ListenerAdapter;
 
+import static ExhibitBot.Origin.Other.Constants.COMMAND_PREFIX;
 import static ExhibitBot.Origin.Other.Constants.SERVER_IP;
 
 /**
@@ -16,7 +17,7 @@ public class Ip extends ListenerAdapter {
     public void onMessageReceived(MessageReceivedEvent e){
         String message = e.getMessage().getContent();
 
-        if (message.equalsIgnoreCase("!ip") && !(e.getAuthor().isBot())) {
+        if (message.equalsIgnoreCase(COMMAND_PREFIX + "ip") && !(e.getAuthor().isBot())) {
             e.getTextChannel().sendMessage("```The server IP is " + SERVER_IP + "```").queue();
 
 

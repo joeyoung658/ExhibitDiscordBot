@@ -5,6 +5,8 @@ import net.dv8tion.jda.core.events.message.MessageReceivedEvent;
 import net.dv8tion.jda.core.exceptions.PermissionException;
 import net.dv8tion.jda.core.hooks.ListenerAdapter;
 
+import static ExhibitBot.Origin.Other.Constants.COMMAND_PREFIX;
+
 /**
  * Created by josep on 10/06/2017.
  */
@@ -14,7 +16,7 @@ public class Hello extends ListenerAdapter {
     public void onMessageReceived(MessageReceivedEvent e){
         String message = e.getMessage().getContent();
 
-        if (message.equalsIgnoreCase("!hello") | message.startsWith("!hi")  && !(e.getAuthor().isBot())) {
+        if (message.equalsIgnoreCase(COMMAND_PREFIX + "hello") | message.startsWith(COMMAND_PREFIX + "hi")  && !(e.getAuthor().isBot())) {
             e.getTextChannel().sendMessage("Hello " + e.getAuthor().getAsMention() + "! Type !commands to view a list of all commands").queue();
 
 
