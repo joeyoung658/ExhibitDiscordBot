@@ -3,7 +3,7 @@
     <output-path>$PROJECT_DIR$/out/artifacts/ExhibitDiscordBot_jar</output-path>
     <root id="archive" name="ExhibitDiscordBot.jar">
       <element id="module-output" name="ExhibitDiscordBot" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/../../JDA-3.1.1_212-withDependencies.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../JDA-3.3.1_286-withDependencies.jar" path-in-jar="/" />
     </root>
   </artifact>
 </component>
