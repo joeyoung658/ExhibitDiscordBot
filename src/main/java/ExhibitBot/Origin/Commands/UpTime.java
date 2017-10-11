@@ -1,18 +1,15 @@
 package ExhibitBot.Origin.Commands;
 
 import ExhibitBot.Origin.Other.Logging;
-import jdk.nashorn.internal.runtime.ListAdapter;
 import net.dv8tion.jda.core.events.message.MessageReceivedEvent;
 import net.dv8tion.jda.core.exceptions.PermissionException;
 import net.dv8tion.jda.core.hooks.ListenerAdapter;
 
-import java.math.BigDecimal;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
-import static ExhibitBot.Origin.Other.Constants.BotStartTime;
-import static ExhibitBot.Origin.Other.Constants.COMMAND_PREFIX;
-import static ExhibitBot.Origin.Other.Constants.SERVER_IP;
+import static ExhibitBot.Origin.Other.Global_Variables.BotStartTime;
+import static ExhibitBot.Origin.Other.Global_Variables.COMMAND_PREFIX;
 
 /**
  * Created by josep on 02/08/2017.

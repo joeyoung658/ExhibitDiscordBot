@@ -2,11 +2,15 @@ package ExhibitBot.Origin.Commands;
 
 import ExhibitBot.Origin.Other.Logging;
 import ExhibitBot.Origin.Other.URLReader;
+import javafx.util.Pair;
 import net.dv8tion.jda.core.events.message.MessageReceivedEvent;
 import net.dv8tion.jda.core.exceptions.PermissionException;
 import net.dv8tion.jda.core.hooks.ListenerAdapter;
 
-import static ExhibitBot.Origin.Other.Constants.COMMAND_PREFIX;
+import java.util.ArrayList;
+import java.util.List;
+
+import static ExhibitBot.Origin.Other.Global_Variables.COMMAND_PREFIX;
 
 
 /**
@@ -30,46 +34,30 @@ public class McStats extends ListenerAdapter {
             Stats = Stats.replaceAll("[{},:\\[\\]]","");
 
 
-            e.getTextChannel().sendMessage(Stats).queue();
+            List<String> ListStats = new ArrayList<>();
 
-//            Login
-//            Session
-//            Website
-//            Textures
-//            Realms
+           for (String i: Stats.split("\"")){
+               ListStats.add(i);
+           }
 
-//            [
-//            {
-//                "minecraft.net": "yellow"
-//            },
-//            {
-//                "session.minecraft.net": "green"
-//            },
-//            {
-//                "account.mojang.com": "green"
-//            },
-//            {
-//                "auth.mojang.com": "green"
-//            },
-//            {
-//                "skins.minecraft.net": "green"
-//            },
-//            {
-//                "authserver.mojang.com": "green"
-//            },
-//            {
-//                "sessionserver.mojang.com": "yellow"
-//            },
-//            {
-//                "api.mojang.com": "green"
-//            },
-//            {
-//                "textures.minecraft.net": "red"
-//            },
-//            {
-//                "mojang.com": "green"
-//            }
-//]
+
+           for (int i = 0; i < ListStats.size(); i ++){
+                if (ListStats.get(i).equalsIgnoreCase("green")){
+                    ListStats.set(i, "- :green_heart: \n");
+                } else if (ListStats.get(i).equalsIgnoreCase("yellow")){
+                    ListStats.set(i, "- :yellow_heart: \n");
+                } else if (ListStats.get(i).equalsIgnoreCase("red")){
+                    ListStats.set(i, "- :heart: \n");
+                }
+           }
+
+
+           Stats = ListStats.toString().replaceAll("[,\\[\\]]","");
+
+                e.getTextChannel().sendMessage("Current status of Minecraft services\n" +
+                        " :green_heart: - No issues, :yellow_heart: - Some issues, :heart: - Service unavailable. \n " + Stats).queue();
+
+
 
 
 
@@ -80,5 +68,3 @@ public class McStats extends ListenerAdapter {
 
     }
 }
-
-

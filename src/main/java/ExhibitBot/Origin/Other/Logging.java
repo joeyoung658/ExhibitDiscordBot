@@ -27,7 +27,7 @@ public class Logging {
         /*
         Logs to logging channel within the server
          */
-        String log = aName + ": " + message;
+        String log = aName  + ": " + message;
         if (logchat) {
 
             if (!(guild.getTextChannelsByName("Logging", true).isEmpty())) {

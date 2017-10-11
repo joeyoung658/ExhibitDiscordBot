@@ -5,8 +5,8 @@ import net.dv8tion.jda.core.events.message.MessageReceivedEvent;
 import net.dv8tion.jda.core.exceptions.PermissionException;
 import net.dv8tion.jda.core.hooks.ListenerAdapter;
 
-import static ExhibitBot.Origin.Other.Constants.COMMAND_PREFIX;
-import static ExhibitBot.Origin.Other.Constants.WEBSITE;
+import static ExhibitBot.Origin.Other.Global_Variables.COMMAND_PREFIX;
+import static ExhibitBot.Origin.Other.Global_Variables.WEBSITE;
 
 /**
  * Created by josep on 10/06/2017.

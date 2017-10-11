@@ -7,7 +7,7 @@ import net.dv8tion.jda.core.events.message.MessageReceivedEvent;
 import net.dv8tion.jda.core.exceptions.PermissionException;
 import net.dv8tion.jda.core.hooks.ListenerAdapter;
 
-import static ExhibitBot.Origin.Other.Constants.COMMAND_PREFIX;
+import static ExhibitBot.Origin.Other.Global_Variables.COMMAND_PREFIX;
 
 
 /**
@@ -28,7 +28,7 @@ public class Commands extends ListenerAdapter {
                 "\n" + COMMAND_PREFIX + "diceroll - Enables you to roll a dice" +
                  "\n" + COMMAND_PREFIX + "membercount - Shows the total amount of members on the discord server" +
                 "\n" + COMMAND_PREFIX + "UpTime - Shows how long the bot has been online" +
-                "\n" + COMMAND_PREFIX + "McStats - Shows the Minecraft Service Status (Still in development)" +
+                "\n" + COMMAND_PREFIX + "McStats - Shows the Minecraft Service Status" +
                 "\n" + COMMAND_PREFIX + "Author - Shows information about the bot ```";
 
         if (message.equalsIgnoreCase(COMMAND_PREFIX + "commands") && !(e.getAuthor().isBot())) {

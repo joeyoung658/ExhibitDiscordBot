@@ -11,7 +11,7 @@ import java.io.IOException;
 import java.net.Socket;
 import java.net.UnknownHostException;
 
-import static ExhibitBot.Origin.Other.Constants.COMMAND_PREFIX;
+import static ExhibitBot.Origin.Other.Global_Variables.COMMAND_PREFIX;
 
 /**
  * Created by josep on 12/06/2017.

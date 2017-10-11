@@ -15,8 +15,8 @@ import javax.security.auth.login.LoginException;
 
 import java.util.Date;
 
-import static ExhibitBot.Origin.Other.Constants.BOT_TOKEN;
-import static ExhibitBot.Origin.Other.Constants.BotStartTime;
+import static ExhibitBot.Origin.Other.Global_Variables.BOT_TOKEN;
+import static ExhibitBot.Origin.Other.Global_Variables.BotStartTime;
 
 /**
  * Created by josep on 10/06/2017.
@@ -74,6 +74,8 @@ public class Main {
         jda.addEventListener(new NickChange());
         jda.addEventListener(new GuildJoin());
         jda.addEventListener(new GuildLeave());
+        jda.addEventListener(new GuildBan());
+        jda.addEventListener(new GuildUnban());
     }
     private static void BotStartTimeRecord(){
         BotStartTime = new Date();

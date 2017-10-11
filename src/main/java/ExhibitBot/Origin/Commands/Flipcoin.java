@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-import static ExhibitBot.Origin.Other.Constants.COMMAND_PREFIX;
+import static ExhibitBot.Origin.Other.Global_Variables.COMMAND_PREFIX;
 
 /**
  * Created by josep on 11/06/2017.
