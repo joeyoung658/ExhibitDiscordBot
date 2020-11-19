@@ -28,8 +28,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="acc4bcd2-35e1-48e8-8963-e38037cc2990" name="Default" comment="Updating for AllAce discord server and updated to JDA 4.2.0_218">
-      <change afterPath="$PROJECT_DIR$/start.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ExhibitBot/Origin/Commands/Serverplayercount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ExhibitBot/Origin/Commands/Serverplayercount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ExhibitBot/Origin/Other/Global_Variables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ExhibitBot/Origin/Other/Global_Variables.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -386,7 +389,7 @@
       <workItem from="1605480839050" duration="464000" />
       <workItem from="1605522718091" duration="37000" />
       <workItem from="1605808957144" duration="2810000" />
-      <workItem from="1605812502339" duration="1893000" />
+      <workItem from="1605812502339" duration="4962000" />
     </task>
     <task id="LOCAL-00001" summary="Bot">
       <created>1497366914556</created>
@@ -423,7 +426,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605814373263</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Updating for AllAce discord server and updated to JDA 4.2.0_218">
+      <created>1605814524545</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1605814524545</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -453,22 +463,26 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="144" y="76" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1605814390420" />
-    <state width="1398" height="248" key="GridCell.Tab.0.bottom" timestamp="1605814281741">
+    <state width="1398" height="239" key="GridCell.Tab.0.bottom" timestamp="1605820580667">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="248" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1605814281741" />
-    <state width="1398" height="248" key="GridCell.Tab.0.center" timestamp="1605814281741">
+    <state width="1398" height="239" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1605820580667" />
+    <state width="1398" height="239" key="GridCell.Tab.0.bottom/0.25.1395.875@0.25.1395.875" timestamp="1605820105668" />
+    <state width="1398" height="239" key="GridCell.Tab.0.center" timestamp="1605820580666">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="248" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1605814281741" />
-    <state width="1398" height="248" key="GridCell.Tab.0.left" timestamp="1605814281740">
+    <state width="1398" height="239" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1605820580666" />
+    <state width="1398" height="239" key="GridCell.Tab.0.center/0.25.1395.875@0.25.1395.875" timestamp="1605820105667" />
+    <state width="1398" height="239" key="GridCell.Tab.0.left" timestamp="1605820580665">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="248" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1605814281740" />
-    <state width="1398" height="248" key="GridCell.Tab.0.right" timestamp="1605814281741">
+    <state width="1398" height="239" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1605820580665" />
+    <state width="1398" height="239" key="GridCell.Tab.0.left/0.25.1395.875@0.25.1395.875" timestamp="1605820105666" />
+    <state width="1398" height="239" key="GridCell.Tab.0.right" timestamp="1605820580667">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="248" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1605814281741" />
+    <state width="1398" height="239" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1605820580667" />
+    <state width="1398" height="239" key="GridCell.Tab.0.right/0.25.1395.875@0.25.1395.875" timestamp="1605820105668" />
     <state width="1398" height="248" key="GridCell.Tab.1.bottom" timestamp="1605814281743">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -493,18 +507,18 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="258" y="109" key="Maven.ArtifactSearchDialog/0.0.1440.900@0.0.1440.900" timestamp="1605810192428" />
-    <state x="320" y="187" key="Vcs.Push.Dialog.v2" timestamp="1605814411738">
+    <state x="320" y="187" key="Vcs.Push.Dialog.v2" timestamp="1605814528331">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="187" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1605814411738" />
+    <state x="320" y="187" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1605814528331" />
     <state x="521" y="368" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605808975557">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="521" y="368" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1605808975557" />
-    <state x="262" y="183" width="916" height="623" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1605814164407">
+    <state x="262" y="183" width="916" height="623" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1605819087052">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="262" y="183" width="916" height="623" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1440.900@0.0.1440.900" timestamp="1605814164407" />
+    <state x="262" y="183" width="916" height="623" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1440.900@0.0.1440.900" timestamp="1605819087052" />
     <state x="421" y="191" width="597" height="518" key="find.popup" timestamp="1605811693180">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -513,6 +527,16 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="385" y="210" width="670" height="675" key="run.anything.popup/0.0.1440.900@0.0.1440.900" timestamp="1605809499289" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />

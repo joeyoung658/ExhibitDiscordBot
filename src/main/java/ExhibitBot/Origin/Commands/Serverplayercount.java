@@ -8,8 +8,11 @@ import net.dv8tion.jda.api.hooks.ListenerAdapter;
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
+import java.lang.reflect.Array;
 import java.net.Socket;
 import java.net.UnknownHostException;
+import java.util.ArrayList;
+import java.util.Arrays;
 
 import static ExhibitBot.Origin.Other.Global_Variables.COMMAND_PREFIX;
 import static ExhibitBot.Origin.Other.Global_Variables.SERVER_IP;
@@ -37,30 +40,30 @@ public class Serverplayercount extends ListenerAdapter {
                 int b;
                 StringBuffer str = new StringBuffer();
                 while ((b = in.read()) != -1) {
-                   if (b > 1) {
+                    if (b > 1) {
                         str.append((char) b);
-                  //      System.out.println((char)b);
-                   }
+                        //System.out.println((char)b);
+                    }
                 }
 
-                String[] data = str.toString().split("§");
 
-                //System.out.println(str);
-
-
-                String onlinePlayers = (data[1]);
-                String maxPlayers = (data[2]);
-
-                e.getTextChannel().sendMessage(e.getAuthor().getAsMention() + " There are currently " +
-                        onlinePlayers + "/" + maxPlayers +  " players online on the Minecraft Server!").queue();
+                String lastFive = str.toString().substring(str.length() - 5);
+                String[] data = lastFive.split("§");
+                String onlinePlayers = data[1];
+                String maxPlayers = data[2];
+                
+                  e.getTextChannel().sendMessage(e.getAuthor().getAsMention() + " There are currently " +
+                          onlinePlayers + "/" + maxPlayers +  " players online on " + SERVER_IP).queue();
                 try {Logging.DataLog(e.getGuild().getName(), e.getAuthor().getName(), message, true, e.getGuild());} catch (PermissionException er){}
 
 
             } catch (UnknownHostException ev) {
-               ev.printStackTrace();
+                ev.printStackTrace();
             } catch (IOException ev) {
                 e.getTextChannel().sendMessage(e.getAuthor().getAsMention() + " The server is currently down or restarting, please try again later.").queue();
             }
         }
     }
 }
+
+
