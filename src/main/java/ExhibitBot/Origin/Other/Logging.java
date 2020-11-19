@@ -1,12 +1,8 @@
 package ExhibitBot.Origin.Other;
 
 
-import net.dv8tion.jda.core.entities.Guild;
-import net.dv8tion.jda.core.entities.TextChannel;
-import net.dv8tion.jda.core.exceptions.PermissionException;
-import sun.rmi.runtime.Log;
-
-import java.util.List;
+import net.dv8tion.jda.api.entities.Guild;
+import net.dv8tion.jda.api.exceptions.PermissionException;
 
 
 /**

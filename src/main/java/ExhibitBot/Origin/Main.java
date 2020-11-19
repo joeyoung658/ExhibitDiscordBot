@@ -1,18 +1,18 @@
 package ExhibitBot.Origin;
 
 import ExhibitBot.Origin.Commands.*;
-
 import ExhibitBot.Origin.GuildMembers.*;
-import ExhibitBot.Origin.GuildVoice.*;
-import net.dv8tion.jda.core.AccountType;
-import net.dv8tion.jda.core.JDA;
-import net.dv8tion.jda.core.JDABuilder;
-import net.dv8tion.jda.core.entities.Game;
-import net.dv8tion.jda.core.exceptions.RateLimitedException;
+import ExhibitBot.Origin.GuildVoice.VoiceJoin;
+import ExhibitBot.Origin.GuildVoice.VoiceLeave;
+import ExhibitBot.Origin.GuildVoice.VoiceMove;
+import net.dv8tion.jda.api.JDA;
+import net.dv8tion.jda.api.JDABuilder;
+import net.dv8tion.jda.api.entities.Activity;
+import net.dv8tion.jda.api.utils.Compression;
+import net.dv8tion.jda.api.utils.cache.CacheFlag;
 
 
 import javax.security.auth.login.LoginException;
-
 import java.util.Date;
 
 import static ExhibitBot.Origin.Other.Global_Variables.BOT_TOKEN;
@@ -22,60 +22,54 @@ import static ExhibitBot.Origin.Other.Global_Variables.BotStartTime;
  * Created by josep on 10/06/2017.
  */
 public class Main {
-    public static JDABuilder discord;
-    public static JDA jda;
 
+    public static void main(String[] args) throws LoginException {
+        JDABuilder builder = JDABuilder.createDefault(BOT_TOKEN);
 
-    public static void main(String[] args){
+        // Disable parts of the cache
+        builder.disableCache(CacheFlag.MEMBER_OVERRIDES, CacheFlag.VOICE_STATE);
+        // Enable the bulk delete event
+        builder.setBulkDeleteSplittingEnabled(false);
+        // Disable compression (not recommended)
+        builder.setCompression(Compression.NONE);
+        // Set activity (like "playing Something")
+        builder.setActivity(Activity.watching("Mathias"));
 
+        builder = registerCommands(builder);
+        builder = registerGuildVoiceEvents(builder);
+        builder = registerGuildMemberEvents(builder);
 
-        //Establishes connection with jda
-        discord = new JDABuilder(AccountType.BOT);
-        discord.setToken(BOT_TOKEN);
-        discord.setAudioEnabled(true);
-        discord.setAutoReconnect(true);
-        discord.setGame(Game.of("eM"));
+        builder.build();
 
-
-
-        try {
-            jda = discord.buildBlocking();
-        } catch (LoginException | InterruptedException | RateLimitedException e) {
-            e.printStackTrace();
-        }
-
-
-        registerCommands();
-        registerGuildVoiceEvents();
-        registerGuildMemberEvents();
         BotStartTimeRecord();
-
     }
-    private static void registerCommands(){
-        jda.addEventListener(new Commands());
-        jda.addEventListener(new Ip());
-        jda.addEventListener(new Hello());
-        jda.addEventListener(new Website());
-        jda.addEventListener(new Vote());
-        jda.addEventListener(new Flipcoin());
-        jda.addEventListener(new Diceroll());
-        jda.addEventListener(new Serverplayercount());
-        jda.addEventListener(new TotalMembers());
-        jda.addEventListener(new Author());
-        jda.addEventListener(new UpTime());
-        jda.addEventListener(new McStats());
+    private static JDABuilder registerCommands(JDABuilder builder){
+        builder.addEventListeners(new Commands());
+        builder.addEventListeners(new Ip());
+        builder.addEventListeners(new Hello());
+        builder.addEventListeners(new Website());
+        builder.addEventListeners(new Vote());
+        builder.addEventListeners(new Flipcoin());
+        builder.addEventListeners(new Diceroll());
+        builder.addEventListeners(new Serverplayercount());
+        builder.addEventListeners(new TotalMembers());
+        builder.addEventListeners(new Author());
+        builder.addEventListeners(new UpTime());
+        builder.addEventListeners(new McStats());
+        return builder;
     }
-    private static void registerGuildVoiceEvents(){
-        jda.addEventListener(new VoiceJoin());
-        jda.addEventListener(new VoiceLeave());
-        jda.addEventListener(new VoiceMove());
+    private static JDABuilder registerGuildVoiceEvents(JDABuilder builder){
+        builder.addEventListeners(new VoiceJoin());
+        builder.addEventListeners(new VoiceLeave());
+        builder.addEventListeners(new VoiceMove());
+        return builder;
     }
-    private static void registerGuildMemberEvents(){
-        jda.addEventListener(new NickChange());
-        jda.addEventListener(new GuildJoin());
-        jda.addEventListener(new GuildLeave());
-        jda.addEventListener(new GuildBan());
-        jda.addEventListener(new GuildUnban());
+    private static JDABuilder registerGuildMemberEvents(JDABuilder builder){
+        builder.addEventListeners(new GuildJoin());
+        builder.addEventListeners(new GuildLeave());
+        builder.addEventListeners(new GuildBan());
+        builder.addEventListeners(new GuildUnban());
+        return builder;
     }
     private static void BotStartTimeRecord(){
         BotStartTime = new Date();

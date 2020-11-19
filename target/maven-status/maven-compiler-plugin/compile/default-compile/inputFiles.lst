@@ -1,25 +1,25 @@
-D:\Documents\GitHub\Public\ExhibitDiscordBot\src\main\java\ExhibitBot\Origin\Commands\McStats.java
-D:\Documents\GitHub\Public\ExhibitDiscordBot\src\main\java\ExhibitBot\Origin\Commands\Serverplayercount.java
-D:\Documents\GitHub\Public\ExhibitDiscordBot\src\main\java\ExhibitBot\Origin\Commands\Vote.java
-D:\Documents\GitHub\Public\ExhibitDiscordBot\src\main\java\ExhibitBot\Origin\GuildVoice\VoiceJoin.java
-D:\Documents\GitHub\Public\ExhibitDiscordBot\src\main\java\ExhibitBot\Origin\Commands\Diceroll.java
-D:\Documents\GitHub\Public\ExhibitDiscordBot\src\main\java\ExhibitBot\Origin\Other\Logging.java
-D:\Documents\GitHub\Public\ExhibitDiscordBot\src\main\java\ExhibitBot\Origin\Other\WriteLog.java
-D:\Documents\GitHub\Public\ExhibitDiscordBot\src\main\java\ExhibitBot\Origin\Commands\Hello.java
-D:\Documents\GitHub\Public\ExhibitDiscordBot\src\main\java\ExhibitBot\Origin\Other\Global_Variables.java
-D:\Documents\GitHub\Public\ExhibitDiscordBot\src\main\java\ExhibitBot\Origin\GuildMembers\GuildLeave.java
-D:\Documents\GitHub\Public\ExhibitDiscordBot\src\main\java\ExhibitBot\Origin\Commands\TotalMembers.java
-D:\Documents\GitHub\Public\ExhibitDiscordBot\src\main\java\ExhibitBot\Origin\Commands\Website.java
-D:\Documents\GitHub\Public\ExhibitDiscordBot\src\main\java\ExhibitBot\Origin\GuildMembers\GuildBan.java
-D:\Documents\GitHub\Public\ExhibitDiscordBot\src\main\java\ExhibitBot\Origin\Commands\Commands.java
-D:\Documents\GitHub\Public\ExhibitDiscordBot\src\main\java\ExhibitBot\Origin\Main.java
-D:\Documents\GitHub\Public\ExhibitDiscordBot\src\main\java\ExhibitBot\Origin\Commands\UpTime.java
-D:\Documents\GitHub\Public\ExhibitDiscordBot\src\main\java\ExhibitBot\Origin\GuildVoice\VoiceMove.java
-D:\Documents\GitHub\Public\ExhibitDiscordBot\src\main\java\ExhibitBot\Origin\GuildVoice\VoiceLeave.java
-D:\Documents\GitHub\Public\ExhibitDiscordBot\src\main\java\ExhibitBot\Origin\Other\URLReader.java
-D:\Documents\GitHub\Public\ExhibitDiscordBot\src\main\java\ExhibitBot\Origin\Commands\Flipcoin.java
-D:\Documents\GitHub\Public\ExhibitDiscordBot\src\main\java\ExhibitBot\Origin\GuildMembers\GuildUnban.java
-D:\Documents\GitHub\Public\ExhibitDiscordBot\src\main\java\ExhibitBot\Origin\GuildMembers\GuildJoin.java
-D:\Documents\GitHub\Public\ExhibitDiscordBot\src\main\java\ExhibitBot\Origin\Commands\Author.java
-D:\Documents\GitHub\Public\ExhibitDiscordBot\src\main\java\ExhibitBot\Origin\Commands\Ip.java
-D:\Documents\GitHub\Public\ExhibitDiscordBot\src\main\java\ExhibitBot\Origin\GuildMembers\NickChange.java
+/Users/mac/Documents/App Development/Java/eM/eM/Plugin Development/eM/ExhibitDiscordBot/src/main/java/ExhibitBot/Origin/GuildVoice/VoiceJoin.java
+/Users/mac/Documents/App Development/Java/eM/eM/Plugin Development/eM/ExhibitDiscordBot/src/main/java/ExhibitBot/Origin/Commands/McStats.java
+/Users/mac/Documents/App Development/Java/eM/eM/Plugin Development/eM/ExhibitDiscordBot/src/main/java/ExhibitBot/Origin/Commands/Diceroll.java
+/Users/mac/Documents/App Development/Java/eM/eM/Plugin Development/eM/ExhibitDiscordBot/src/main/java/ExhibitBot/Origin/Main.java
+/Users/mac/Documents/App Development/Java/eM/eM/Plugin Development/eM/ExhibitDiscordBot/src/main/java/ExhibitBot/Origin/Other/URLReader.java
+/Users/mac/Documents/App Development/Java/eM/eM/Plugin Development/eM/ExhibitDiscordBot/src/main/java/ExhibitBot/Origin/GuildMembers/GuildUnban.java
+/Users/mac/Documents/App Development/Java/eM/eM/Plugin Development/eM/ExhibitDiscordBot/src/main/java/ExhibitBot/Origin/Commands/TotalMembers.java
+/Users/mac/Documents/App Development/Java/eM/eM/Plugin Development/eM/ExhibitDiscordBot/src/main/java/ExhibitBot/Origin/Commands/Author.java
+/Users/mac/Documents/App Development/Java/eM/eM/Plugin Development/eM/ExhibitDiscordBot/src/main/java/ExhibitBot/Origin/GuildMembers/NickChange.java
+/Users/mac/Documents/App Development/Java/eM/eM/Plugin Development/eM/ExhibitDiscordBot/src/main/java/ExhibitBot/Origin/Commands/Vote.java
+/Users/mac/Documents/App Development/Java/eM/eM/Plugin Development/eM/ExhibitDiscordBot/src/main/java/ExhibitBot/Origin/Commands/Hello.java
+/Users/mac/Documents/App Development/Java/eM/eM/Plugin Development/eM/ExhibitDiscordBot/src/main/java/ExhibitBot/Origin/GuildMembers/GuildLeave.java
+/Users/mac/Documents/App Development/Java/eM/eM/Plugin Development/eM/ExhibitDiscordBot/src/main/java/ExhibitBot/Origin/Commands/Website.java
+/Users/mac/Documents/App Development/Java/eM/eM/Plugin Development/eM/ExhibitDiscordBot/src/main/java/ExhibitBot/Origin/GuildMembers/GuildBan.java
+/Users/mac/Documents/App Development/Java/eM/eM/Plugin Development/eM/ExhibitDiscordBot/src/main/java/ExhibitBot/Origin/Commands/UpTime.java
+/Users/mac/Documents/App Development/Java/eM/eM/Plugin Development/eM/ExhibitDiscordBot/src/main/java/ExhibitBot/Origin/GuildMembers/GuildJoin.java
+/Users/mac/Documents/App Development/Java/eM/eM/Plugin Development/eM/ExhibitDiscordBot/src/main/java/ExhibitBot/Origin/Commands/Commands.java
+/Users/mac/Documents/App Development/Java/eM/eM/Plugin Development/eM/ExhibitDiscordBot/src/main/java/ExhibitBot/Origin/Commands/Serverplayercount.java
+/Users/mac/Documents/App Development/Java/eM/eM/Plugin Development/eM/ExhibitDiscordBot/src/main/java/ExhibitBot/Origin/GuildVoice/VoiceLeave.java
+/Users/mac/Documents/App Development/Java/eM/eM/Plugin Development/eM/ExhibitDiscordBot/src/main/java/ExhibitBot/Origin/Other/Global_Variables.java
+/Users/mac/Documents/App Development/Java/eM/eM/Plugin Development/eM/ExhibitDiscordBot/src/main/java/ExhibitBot/Origin/Other/WriteLog.java
+/Users/mac/Documents/App Development/Java/eM/eM/Plugin Development/eM/ExhibitDiscordBot/src/main/java/ExhibitBot/Origin/Commands/Flipcoin.java
+/Users/mac/Documents/App Development/Java/eM/eM/Plugin Development/eM/ExhibitDiscordBot/src/main/java/ExhibitBot/Origin/GuildVoice/VoiceMove.java
+/Users/mac/Documents/App Development/Java/eM/eM/Plugin Development/eM/ExhibitDiscordBot/src/main/java/ExhibitBot/Origin/Other/Logging.java
+/Users/mac/Documents/App Development/Java/eM/eM/Plugin Development/eM/ExhibitDiscordBot/src/main/java/ExhibitBot/Origin/Commands/Ip.java

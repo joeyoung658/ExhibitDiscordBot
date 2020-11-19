@@ -1,8 +1,8 @@
 package ExhibitBot.Origin.GuildMembers;
 
 
-import net.dv8tion.jda.core.events.guild.GuildBanEvent;
-import net.dv8tion.jda.core.hooks.ListenerAdapter;
+import net.dv8tion.jda.api.events.guild.GuildBanEvent;
+import net.dv8tion.jda.api.hooks.ListenerAdapter;
 
 import static ExhibitBot.Origin.Other.Global_Variables.USER_BANS;
 

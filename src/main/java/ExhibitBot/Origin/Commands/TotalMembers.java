@@ -1,10 +1,10 @@
 package ExhibitBot.Origin.Commands;
 
 import ExhibitBot.Origin.Other.Logging;
-import net.dv8tion.jda.core.entities.ChannelType;
-import net.dv8tion.jda.core.events.message.MessageReceivedEvent;
-import net.dv8tion.jda.core.exceptions.PermissionException;
-import net.dv8tion.jda.core.hooks.ListenerAdapter;
+import net.dv8tion.jda.api.entities.ChannelType;
+import net.dv8tion.jda.api.events.message.MessageReceivedEvent;
+import net.dv8tion.jda.api.exceptions.PermissionException;
+import net.dv8tion.jda.api.hooks.ListenerAdapter;
 
 import static ExhibitBot.Origin.Other.Global_Variables.COMMAND_PREFIX;
 
@@ -14,7 +14,7 @@ import static ExhibitBot.Origin.Other.Global_Variables.COMMAND_PREFIX;
 public class TotalMembers extends ListenerAdapter {
     @Override
     public void onMessageReceived(MessageReceivedEvent e){
-        String message = e.getMessage().getContent();
+        String message = e.getMessage().getContentRaw();
         if (message.equalsIgnoreCase(COMMAND_PREFIX + "membercount") && !(e.getAuthor().isBot())) {
 
             if (e.isFromType(ChannelType.TEXT)) {

@@ -1,9 +1,9 @@
 package ExhibitBot.Origin.Commands;
 
 import ExhibitBot.Origin.Other.Logging;
-import net.dv8tion.jda.core.events.message.MessageReceivedEvent;
-import net.dv8tion.jda.core.exceptions.PermissionException;
-import net.dv8tion.jda.core.hooks.ListenerAdapter;
+import net.dv8tion.jda.api.events.message.MessageReceivedEvent;
+import net.dv8tion.jda.api.exceptions.PermissionException;
+import net.dv8tion.jda.api.hooks.ListenerAdapter;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
@@ -12,19 +12,22 @@ import java.net.Socket;
 import java.net.UnknownHostException;
 
 import static ExhibitBot.Origin.Other.Global_Variables.COMMAND_PREFIX;
+import static ExhibitBot.Origin.Other.Global_Variables.SERVER_IP;
 
 /**
  * Created by josep on 12/06/2017.
  */
+
+//todo this is broken
 public class Serverplayercount extends ListenerAdapter {
     @Override
     public void onMessageReceived(MessageReceivedEvent e) {
-        String message = e.getMessage().getContent();
+        String message = e.getMessage().getContentRaw();
 
         if (message.equalsIgnoreCase(COMMAND_PREFIX + "playercount") && !(e.getAuthor().isBot())) {
 
             try {
-                Socket sock = new Socket("play.exhibit-minecraft.com", 25565);
+                Socket sock = new Socket(SERVER_IP, 25565);
 
                 DataOutputStream out = new DataOutputStream(sock.getOutputStream());
                 DataInputStream in = new DataInputStream(sock.getInputStream());
@@ -45,8 +48,8 @@ public class Serverplayercount extends ListenerAdapter {
                 //System.out.println(str);
 
 
-                int onlinePlayers = Integer.parseInt(data[1]);
-                int maxPlayers = Integer.parseInt(data[2]);
+                String onlinePlayers = (data[1]);
+                String maxPlayers = (data[2]);
 
                 e.getTextChannel().sendMessage(e.getAuthor().getAsMention() + " There are currently " +
                         onlinePlayers + "/" + maxPlayers +  " players online on the Minecraft Server!").queue();
