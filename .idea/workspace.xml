@@ -27,54 +27,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="acc4bcd2-35e1-48e8-8963-e38037cc2990" name="Default" comment="Updating for AllAce">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__club_minnced_opus_java_api_1_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__club_minnced_opus_java_natives_1_0_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_dv8tion_JDA_4_2_0_218.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_16_0_1.xml" afterDir="false" />
+    <list default="true" id="acc4bcd2-35e1-48e8-8963-e38037cc2990" name="Default" comment="Updating for AllAce discord server and updated to JDA 4.2.0_218">
+      <change afterPath="$PROJECT_DIR$/start.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_neovisionaries_nv_websocket_client_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_neovisionaries_nv_websocket_client_2_10.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_8_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_13_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_13_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_17_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_dv8tion_JDA_3_3_1_286.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20160810.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExhibitDiscordBot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ExhibitDiscordBot.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ExhibitBot/Origin/Commands/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ExhibitBot/Origin/Commands/Author.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ExhibitBot/Origin/Commands/Commands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ExhibitBot/Origin/Commands/Commands.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ExhibitBot/Origin/Commands/Diceroll.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ExhibitBot/Origin/Commands/Diceroll.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ExhibitBot/Origin/Commands/Flipcoin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ExhibitBot/Origin/Commands/Flipcoin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ExhibitBot/Origin/Commands/Hello.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ExhibitBot/Origin/Commands/Hello.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ExhibitBot/Origin/Commands/Ip.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ExhibitBot/Origin/Commands/Ip.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ExhibitBot/Origin/Commands/McStats.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ExhibitBot/Origin/Commands/McStats.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ExhibitBot/Origin/Commands/Serverplayercount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ExhibitBot/Origin/Commands/Serverplayercount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ExhibitBot/Origin/Commands/TotalMembers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ExhibitBot/Origin/Commands/TotalMembers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ExhibitBot/Origin/Commands/UpTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ExhibitBot/Origin/Commands/UpTime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ExhibitBot/Origin/Commands/Vote.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ExhibitBot/Origin/Commands/Vote.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ExhibitBot/Origin/Commands/Website.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ExhibitBot/Origin/Commands/Website.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ExhibitBot/Origin/GuildMembers/GuildBan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ExhibitBot/Origin/GuildMembers/GuildBan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ExhibitBot/Origin/GuildMembers/GuildJoin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ExhibitBot/Origin/GuildMembers/GuildJoin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ExhibitBot/Origin/GuildMembers/GuildLeave.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ExhibitBot/Origin/GuildMembers/GuildLeave.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ExhibitBot/Origin/GuildMembers/GuildUnban.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ExhibitBot/Origin/GuildMembers/GuildUnban.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ExhibitBot/Origin/GuildMembers/NickChange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ExhibitBot/Origin/GuildMembers/NickChange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ExhibitBot/Origin/GuildVoice/VoiceJoin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ExhibitBot/Origin/GuildVoice/VoiceJoin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ExhibitBot/Origin/GuildVoice/VoiceLeave.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ExhibitBot/Origin/GuildVoice/VoiceLeave.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ExhibitBot/Origin/GuildVoice/VoiceMove.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ExhibitBot/Origin/GuildVoice/VoiceMove.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ExhibitBot/Origin/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ExhibitBot/Origin/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ExhibitBot/Origin/Other/Global_Variables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ExhibitBot/Origin/Other/Global_Variables.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ExhibitBot/Origin/Other/Logging.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ExhibitBot/Origin/Other/Logging.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/Start.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/dependency-reduced-pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -431,7 +386,7 @@
       <workItem from="1605480839050" duration="464000" />
       <workItem from="1605522718091" duration="37000" />
       <workItem from="1605808957144" duration="2810000" />
-      <workItem from="1605812502339" duration="1524000" />
+      <workItem from="1605812502339" duration="1893000" />
     </task>
     <task id="LOCAL-00001" summary="Bot">
       <created>1497366914556</created>
@@ -461,7 +416,14 @@
       <option name="project" value="LOCAL" />
       <updated>1501710264469</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Updating for AllAce discord server and updated to JDA 4.2.0_218">
+      <created>1605814373263</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1605814373263</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -483,57 +445,66 @@
     <MESSAGE value="Bot" />
     <MESSAGE value="New features" />
     <MESSAGE value="Added a few new commands - McStats WIP" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added a few new commands - McStats WIP" />
+    <MESSAGE value="Updating for AllAce discord server and updated to JDA 4.2.0_218" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updating for AllAce discord server and updated to JDA 4.2.0_218" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="248" key="GridCell.Tab.0.bottom" timestamp="1605814137532">
+    <state x="144" y="76" key="DiffContextDialog" timestamp="1605814390420">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="248" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1605814137532" />
-    <state width="1398" height="248" key="GridCell.Tab.0.center" timestamp="1605814137530">
+    <state x="144" y="76" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1605814390420" />
+    <state width="1398" height="248" key="GridCell.Tab.0.bottom" timestamp="1605814281741">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="248" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1605814137530" />
-    <state width="1398" height="248" key="GridCell.Tab.0.left" timestamp="1605814137529">
+    <state width="1398" height="248" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1605814281741" />
+    <state width="1398" height="248" key="GridCell.Tab.0.center" timestamp="1605814281741">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="248" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1605814137529" />
-    <state width="1398" height="248" key="GridCell.Tab.0.right" timestamp="1605814137531">
+    <state width="1398" height="248" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1605814281741" />
+    <state width="1398" height="248" key="GridCell.Tab.0.left" timestamp="1605814281740">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="248" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1605814137531" />
-    <state width="1398" height="248" key="GridCell.Tab.1.bottom" timestamp="1605814137546">
+    <state width="1398" height="248" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1605814281740" />
+    <state width="1398" height="248" key="GridCell.Tab.0.right" timestamp="1605814281741">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="248" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1605814137546" />
+    <state width="1398" height="248" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1605814281741" />
+    <state width="1398" height="248" key="GridCell.Tab.1.bottom" timestamp="1605814281743">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="248" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1605814281743" />
     <state width="1398" height="248" key="GridCell.Tab.1.bottom/0.25.1394.875@0.25.1394.875" timestamp="1605814068188" />
-    <state width="1398" height="248" key="GridCell.Tab.1.center" timestamp="1605814137545">
+    <state width="1398" height="248" key="GridCell.Tab.1.center" timestamp="1605814281742">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="248" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1605814137545" />
+    <state width="1398" height="248" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1605814281742" />
     <state width="1398" height="248" key="GridCell.Tab.1.center/0.25.1394.875@0.25.1394.875" timestamp="1605814068174" />
-    <state width="1398" height="248" key="GridCell.Tab.1.left" timestamp="1605814137544">
+    <state width="1398" height="248" key="GridCell.Tab.1.left" timestamp="1605814281742">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="248" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1605814137544" />
+    <state width="1398" height="248" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1605814281742" />
     <state width="1398" height="248" key="GridCell.Tab.1.left/0.25.1394.875@0.25.1394.875" timestamp="1605814068174" />
-    <state width="1398" height="248" key="GridCell.Tab.1.right" timestamp="1605814137546">
+    <state width="1398" height="248" key="GridCell.Tab.1.right" timestamp="1605814281743">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="248" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1605814137546" />
+    <state width="1398" height="248" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1605814281743" />
     <state width="1398" height="248" key="GridCell.Tab.1.right/0.25.1394.875@0.25.1394.875" timestamp="1605814068175" />
     <state x="258" y="109" key="Maven.ArtifactSearchDialog" timestamp="1605810192428">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="258" y="109" key="Maven.ArtifactSearchDialog/0.0.1440.900@0.0.1440.900" timestamp="1605810192428" />
+    <state x="320" y="187" key="Vcs.Push.Dialog.v2" timestamp="1605814411738">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="187" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1605814411738" />
     <state x="521" y="368" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605808975557">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="521" y="368" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1605808975557" />
-    <state x="262" y="183" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1605814063989">
+    <state x="262" y="183" width="916" height="623" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1605814164407">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="262" y="183" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1440.900@0.0.1440.900" timestamp="1605814063989" />
+    <state x="262" y="183" width="916" height="623" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1440.900@0.0.1440.900" timestamp="1605814164407" />
     <state x="421" y="191" width="597" height="518" key="find.popup" timestamp="1605811693180">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -542,21 +513,6 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="385" y="210" width="670" height="675" key="run.anything.popup/0.0.1440.900@0.0.1440.900" timestamp="1605809499289" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ExhibitBot/Origin/Commands/Serverplayercount.java</url>
-          <line>51</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-      <default-breakpoints>
-        <breakpoint enabled="true" type="java-exception" />
-        <breakpoint enabled="true" type="javascript-exception" />
-      </default-breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
