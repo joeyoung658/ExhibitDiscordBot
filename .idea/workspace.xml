@@ -29,10 +29,8 @@
   <component name="ChangeListManager">
     <list default="true" id="acc4bcd2-35e1-48e8-8963-e38037cc2990" name="Default" comment="Updating for AllAce discord server and updated to JDA 4.2.0_218">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ExhibitBot/Origin/Commands/Serverplayercount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ExhibitBot/Origin/Commands/Serverplayercount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ExhibitBot/Origin/Other/Global_Variables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ExhibitBot/Origin/Other/Global_Variables.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -389,7 +387,10 @@
       <workItem from="1605480839050" duration="464000" />
       <workItem from="1605522718091" duration="37000" />
       <workItem from="1605808957144" duration="2810000" />
-      <workItem from="1605812502339" duration="4962000" />
+      <workItem from="1605812502339" duration="5223000" />
+      <workItem from="1606733234033" duration="465000" />
+      <workItem from="1606734855188" duration="9000" />
+      <workItem from="1606823802928" duration="362000" />
     </task>
     <task id="LOCAL-00001" summary="Bot">
       <created>1497366914556</created>
@@ -433,7 +434,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605814524545</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Updating for AllAce discord server and updated to JDA 4.2.0_218">
+      <created>1605820852691</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1605820852691</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -463,26 +471,34 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="144" y="76" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1605814390420" />
-    <state width="1398" height="239" key="GridCell.Tab.0.bottom" timestamp="1605820580667">
+    <state width="1398" height="239" key="GridCell.Tab.0.bottom" timestamp="1606824182003">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="239" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1605820580667" />
+    <state width="1398" height="239" key="GridCell.Tab.0.bottom/0.0.1440.900/0.-900.1440.900@0.0.1440.900" timestamp="1606824182003" />
+    <state width="1398" height="239" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1605820940719" />
     <state width="1398" height="239" key="GridCell.Tab.0.bottom/0.25.1395.875@0.25.1395.875" timestamp="1605820105668" />
-    <state width="1398" height="239" key="GridCell.Tab.0.center" timestamp="1605820580666">
+    <state width="1398" height="239" key="GridCell.Tab.0.bottom/0.25.1397.875/0.-875.1440.875@0.25.1397.875" timestamp="1606733500510" />
+    <state width="1398" height="239" key="GridCell.Tab.0.center" timestamp="1606824182001">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="239" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1605820580666" />
+    <state width="1398" height="239" key="GridCell.Tab.0.center/0.0.1440.900/0.-900.1440.900@0.0.1440.900" timestamp="1606824182001" />
+    <state width="1398" height="239" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1605820940719" />
     <state width="1398" height="239" key="GridCell.Tab.0.center/0.25.1395.875@0.25.1395.875" timestamp="1605820105667" />
-    <state width="1398" height="239" key="GridCell.Tab.0.left" timestamp="1605820580665">
+    <state width="1398" height="239" key="GridCell.Tab.0.center/0.25.1397.875/0.-875.1440.875@0.25.1397.875" timestamp="1606733500508" />
+    <state width="1398" height="239" key="GridCell.Tab.0.left" timestamp="1606824182001">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="239" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1605820580665" />
+    <state width="1398" height="239" key="GridCell.Tab.0.left/0.0.1440.900/0.-900.1440.900@0.0.1440.900" timestamp="1606824182001" />
+    <state width="1398" height="239" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1605820940718" />
     <state width="1398" height="239" key="GridCell.Tab.0.left/0.25.1395.875@0.25.1395.875" timestamp="1605820105666" />
-    <state width="1398" height="239" key="GridCell.Tab.0.right" timestamp="1605820580667">
+    <state width="1398" height="239" key="GridCell.Tab.0.left/0.25.1397.875/0.-875.1440.875@0.25.1397.875" timestamp="1606733500508" />
+    <state width="1398" height="239" key="GridCell.Tab.0.right" timestamp="1606824182002">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="239" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1605820580667" />
+    <state width="1398" height="239" key="GridCell.Tab.0.right/0.0.1440.900/0.-900.1440.900@0.0.1440.900" timestamp="1606824182002" />
+    <state width="1398" height="239" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1605820940719" />
     <state width="1398" height="239" key="GridCell.Tab.0.right/0.25.1395.875@0.25.1395.875" timestamp="1605820105668" />
+    <state width="1398" height="239" key="GridCell.Tab.0.right/0.25.1397.875/0.-875.1440.875@0.25.1397.875" timestamp="1606733500509" />
     <state width="1398" height="248" key="GridCell.Tab.1.bottom" timestamp="1605814281743">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -507,10 +523,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="258" y="109" key="Maven.ArtifactSearchDialog/0.0.1440.900@0.0.1440.900" timestamp="1605810192428" />
-    <state x="320" y="187" key="Vcs.Push.Dialog.v2" timestamp="1605814528331">
+    <state x="320" y="187" key="Vcs.Push.Dialog.v2" timestamp="1605820857925">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="187" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1605814528331" />
+    <state x="320" y="187" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1605820857925" />
     <state x="521" y="368" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605808975557">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

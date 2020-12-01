@@ -47,11 +47,20 @@ public class Serverplayercount extends ListenerAdapter {
                 }
 
 
-                String lastFive = str.toString().substring(str.length() - 5);
+
+                String lastFive = str.toString().substring(str.length()- 5);
                 String[] data = lastFive.split("§");
-                String onlinePlayers = data[1];
-                String maxPlayers = data[2];
-                
+                String onlinePlayers = data[0];
+
+                if (onlinePlayers.isEmpty()){
+                    onlinePlayers = data[1];
+                }
+
+//                String maxPlayers = data[2];
+
+                //String onlinePlayers = "1";
+                String maxPlayers = "32";
+
                   e.getTextChannel().sendMessage(e.getAuthor().getAsMention() + " There are currently " +
                           onlinePlayers + "/" + maxPlayers +  " players online on " + SERVER_IP).queue();
                 try {Logging.DataLog(e.getGuild().getName(), e.getAuthor().getName(), message, true, e.getGuild());} catch (PermissionException er){}
