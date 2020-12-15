@@ -2,7 +2,6 @@ package ExhibitBot.Origin.Commands;
 
 import ExhibitBot.Origin.Other.Logging;
 import ExhibitBot.Origin.Other.URLReader;
-import javafx.util.Pair;
 import net.dv8tion.jda.api.events.message.MessageReceivedEvent;
 import net.dv8tion.jda.api.exceptions.PermissionException;
 import net.dv8tion.jda.api.hooks.ListenerAdapter;

@@ -33,7 +33,7 @@ public class Main {
         // Disable compression (not recommended)
         builder.setCompression(Compression.NONE);
         // Set activity (like "playing Something")
-        builder.setActivity(Activity.watching("Mathias"));
+        builder.setActivity(Activity.watching("Your dad"));
 
         builder = registerCommands(builder);
         builder = registerGuildVoiceEvents(builder);
@@ -56,6 +56,7 @@ public class Main {
         builder.addEventListeners(new Author());
         builder.addEventListeners(new UpTime());
         builder.addEventListeners(new McStats());
+        builder.addEventListeners(new GMT());
         return builder;
     }
     private static JDABuilder registerGuildVoiceEvents(JDABuilder builder){

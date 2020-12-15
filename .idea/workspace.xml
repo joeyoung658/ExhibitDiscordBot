@@ -29,7 +29,8 @@
   <component name="ChangeListManager">
     <list default="true" id="acc4bcd2-35e1-48e8-8963-e38037cc2990" name="Default" comment="Updating for AllAce discord server and updated to JDA 4.2.0_218">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ExhibitBot/Origin/Commands/Serverplayercount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ExhibitBot/Origin/Commands/Serverplayercount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ExhibitBot/Origin/Commands/GMT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ExhibitBot/Origin/Commands/GMT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ExhibitBot/Origin/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ExhibitBot/Origin/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ExhibitBot/Origin/Other/Global_Variables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ExhibitBot/Origin/Other/Global_Variables.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,13 +62,6 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="1kLXRHBKXMwsHRpvKbZ6yum2QLP" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -78,11 +72,13 @@
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="exhibitdiscordbot" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="js.eslint.eslintPackage" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../eMBungee" />
+    <property name="last_opened_file_path" value="F:/" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -90,7 +86,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
@@ -142,8 +138,41 @@
       <module />
       <method />
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
       <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
       <option name="BCName" value="" />
@@ -194,6 +223,25 @@
       <option name="trusted" value="true" />
       <method />
     </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="grailsApplicationRoot" value="" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
       <method />
     </configuration>
@@ -219,49 +267,6 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
-      <setting name="vmparams" value="" />
-      <setting name="cmdLine" value="run-app" />
-      <setting name="passParentEnv" value="true" />
-      <setting name="grailsApplicationRoot" value="" />
-      <setting name="launchBrowser" value="true" />
-      <setting name="launchBrowserUrl" value="" />
-      <setting name="depsClasspath" value="false" />
-      <method v="2" />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
@@ -330,15 +335,6 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-      <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
@@ -441,7 +437,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605820852691</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Cum on command">
+      <created>1608053952899</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1608053952899</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -464,85 +467,8 @@
     <MESSAGE value="New features" />
     <MESSAGE value="Added a few new commands - McStats WIP" />
     <MESSAGE value="Updating for AllAce discord server and updated to JDA 4.2.0_218" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updating for AllAce discord server and updated to JDA 4.2.0_218" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="144" y="76" key="DiffContextDialog" timestamp="1605814390420">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="144" y="76" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1605814390420" />
-    <state width="1398" height="239" key="GridCell.Tab.0.bottom" timestamp="1606824182003">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="239" key="GridCell.Tab.0.bottom/0.0.1440.900/0.-900.1440.900@0.0.1440.900" timestamp="1606824182003" />
-    <state width="1398" height="239" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1605820940719" />
-    <state width="1398" height="239" key="GridCell.Tab.0.bottom/0.25.1395.875@0.25.1395.875" timestamp="1605820105668" />
-    <state width="1398" height="239" key="GridCell.Tab.0.bottom/0.25.1397.875/0.-875.1440.875@0.25.1397.875" timestamp="1606733500510" />
-    <state width="1398" height="239" key="GridCell.Tab.0.center" timestamp="1606824182001">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="239" key="GridCell.Tab.0.center/0.0.1440.900/0.-900.1440.900@0.0.1440.900" timestamp="1606824182001" />
-    <state width="1398" height="239" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1605820940719" />
-    <state width="1398" height="239" key="GridCell.Tab.0.center/0.25.1395.875@0.25.1395.875" timestamp="1605820105667" />
-    <state width="1398" height="239" key="GridCell.Tab.0.center/0.25.1397.875/0.-875.1440.875@0.25.1397.875" timestamp="1606733500508" />
-    <state width="1398" height="239" key="GridCell.Tab.0.left" timestamp="1606824182001">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="239" key="GridCell.Tab.0.left/0.0.1440.900/0.-900.1440.900@0.0.1440.900" timestamp="1606824182001" />
-    <state width="1398" height="239" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1605820940718" />
-    <state width="1398" height="239" key="GridCell.Tab.0.left/0.25.1395.875@0.25.1395.875" timestamp="1605820105666" />
-    <state width="1398" height="239" key="GridCell.Tab.0.left/0.25.1397.875/0.-875.1440.875@0.25.1397.875" timestamp="1606733500508" />
-    <state width="1398" height="239" key="GridCell.Tab.0.right" timestamp="1606824182002">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="239" key="GridCell.Tab.0.right/0.0.1440.900/0.-900.1440.900@0.0.1440.900" timestamp="1606824182002" />
-    <state width="1398" height="239" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1605820940719" />
-    <state width="1398" height="239" key="GridCell.Tab.0.right/0.25.1395.875@0.25.1395.875" timestamp="1605820105668" />
-    <state width="1398" height="239" key="GridCell.Tab.0.right/0.25.1397.875/0.-875.1440.875@0.25.1397.875" timestamp="1606733500509" />
-    <state width="1398" height="248" key="GridCell.Tab.1.bottom" timestamp="1605814281743">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="248" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1605814281743" />
-    <state width="1398" height="248" key="GridCell.Tab.1.bottom/0.25.1394.875@0.25.1394.875" timestamp="1605814068188" />
-    <state width="1398" height="248" key="GridCell.Tab.1.center" timestamp="1605814281742">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="248" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1605814281742" />
-    <state width="1398" height="248" key="GridCell.Tab.1.center/0.25.1394.875@0.25.1394.875" timestamp="1605814068174" />
-    <state width="1398" height="248" key="GridCell.Tab.1.left" timestamp="1605814281742">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="248" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1605814281742" />
-    <state width="1398" height="248" key="GridCell.Tab.1.left/0.25.1394.875@0.25.1394.875" timestamp="1605814068174" />
-    <state width="1398" height="248" key="GridCell.Tab.1.right" timestamp="1605814281743">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1398" height="248" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1605814281743" />
-    <state width="1398" height="248" key="GridCell.Tab.1.right/0.25.1394.875@0.25.1394.875" timestamp="1605814068175" />
-    <state x="258" y="109" key="Maven.ArtifactSearchDialog" timestamp="1605810192428">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="258" y="109" key="Maven.ArtifactSearchDialog/0.0.1440.900@0.0.1440.900" timestamp="1605810192428" />
-    <state x="320" y="187" key="Vcs.Push.Dialog.v2" timestamp="1605820857925">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="320" y="187" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1605820857925" />
-    <state x="521" y="368" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605808975557">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="521" y="368" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1605808975557" />
-    <state x="262" y="183" width="916" height="623" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1605819087052">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="262" y="183" width="916" height="623" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1440.900@0.0.1440.900" timestamp="1605819087052" />
-    <state x="421" y="191" width="597" height="518" key="find.popup" timestamp="1605811693180">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="421" y="191" width="597" height="518" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1605811693180" />
-    <state x="385" y="210" width="670" height="675" key="run.anything.popup" timestamp="1605809499289">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="385" y="210" width="670" height="675" key="run.anything.popup/0.0.1440.900@0.0.1440.900" timestamp="1605809499289" />
+    <MESSAGE value="Cum on command" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cum on command" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
