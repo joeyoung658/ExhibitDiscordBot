@@ -29,7 +29,9 @@ public class Commands extends ListenerAdapter {
                  "\n" + COMMAND_PREFIX + "membercount - Shows the total amount of members on the discord server" +
                 "\n" + COMMAND_PREFIX + "UpTime - Shows how long the bot has been online" +
                 "\n" + COMMAND_PREFIX + "McStats - Shows the Minecraft Service Status" +
+                "\n" + COMMAND_PREFIX + "GMT - Show time" +
                 "\n" + COMMAND_PREFIX + "Author - Shows information about the bot ```";
+
 
         if (message.equalsIgnoreCase(COMMAND_PREFIX + "commands") && !(e.getAuthor().isBot())) {
 

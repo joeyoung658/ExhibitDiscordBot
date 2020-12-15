@@ -19,7 +19,7 @@ public class Author extends ListenerAdapter {
 
         if (message.equalsIgnoreCase(COMMAND_PREFIX + "author") && !(e.getAuthor().isBot())) {
             e.getTextChannel().sendMessage("```" +
-                    "Developed by Origin#9142" +
+                    "Developed by Origin#9142 and XploderB#9238" +
                     "\nSource Code - https://github.com/Origin658/ExhibitDiscordBot" +
                     "```").queue();
             try {Logging.DataLog(e.getGuild().getName(), e.getAuthor().getName(), message, true, e.getGuild());} catch (PermissionException er){}
