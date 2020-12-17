@@ -2,6 +2,7 @@ ExhibitBot/Origin/GuildVoice/VoiceLeave.class
 ExhibitBot/Origin/Other/Global_Variables.class
 ExhibitBot/Origin/GuildVoice/VoiceJoin.class
 ExhibitBot/Origin/Commands/Serverplayercount.class
+ExhibitBot/Origin/Commands/GMT.class
 ExhibitBot/Origin/GuildMembers/GuildUnban.class
 ExhibitBot/Origin/Other/Logging.class
 ExhibitBot/Origin/Main.class
