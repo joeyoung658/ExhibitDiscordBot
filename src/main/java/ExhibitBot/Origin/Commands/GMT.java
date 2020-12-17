@@ -1,15 +1,19 @@
 package ExhibitBot.Origin.Commands;
 
+import ExhibitBot.Origin.Minecraft.minecraftServerInfo;
 import ExhibitBot.Origin.Other.Logging;
+import net.dv8tion.jda.api.entities.GuildChannel;
 import net.dv8tion.jda.api.events.message.MessageReceivedEvent;
 import net.dv8tion.jda.api.exceptions.PermissionException;
 import net.dv8tion.jda.api.hooks.ListenerAdapter;
+import net.dv8tion.jda.api.managers.ChannelManager;
 
 import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
 import java.time.format.FormatStyle;
 
 import static ExhibitBot.Origin.Other.Global_Variables.COMMAND_PREFIX;
+import static ExhibitBot.Origin.Other.Global_Variables.SERVER_IP;
 
 public class GMT extends ListenerAdapter {
 
@@ -20,8 +24,12 @@ public class GMT extends ListenerAdapter {
     public void onMessageReceived(MessageReceivedEvent e) {
         String message = e.getMessage().getContentRaw();
 
+
         if (message.equalsIgnoreCase(COMMAND_PREFIX + "GMT") && !(e.getAuthor().isBot())) {
            String Time = DateTimeFormatter.ofLocalizedDateTime(FormatStyle.SHORT).format(ZonedDateTime.now());
+
+
+
 
 
             e.getTextChannel().sendMessage( e.getAuthor().getAsMention() + "GMT time " + Time).queue();
