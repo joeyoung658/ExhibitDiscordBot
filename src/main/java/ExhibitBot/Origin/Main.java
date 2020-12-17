@@ -22,7 +22,6 @@ import static ExhibitBot.Origin.Other.Global_Variables.BotStartTime;
  * Created by josep on 10/06/2017.
  */
 public class Main {
-
     public static void main(String[] args) throws LoginException {
         JDABuilder builder = JDABuilder.createDefault(BOT_TOKEN);
 
@@ -33,7 +32,7 @@ public class Main {
         // Disable compression (not recommended)
         builder.setCompression(Compression.NONE);
         // Set activity (like "playing Something")
-        builder.setActivity(Activity.watching("Your dad"));
+        builder.setActivity(Activity.watching("Hasan play Cod"));
 
         builder = registerCommands(builder);
         builder = registerGuildVoiceEvents(builder);
@@ -59,6 +58,7 @@ public class Main {
         builder.addEventListeners(new GMT());
         return builder;
     }
+    
     private static JDABuilder registerGuildVoiceEvents(JDABuilder builder){
         builder.addEventListeners(new VoiceJoin());
         builder.addEventListeners(new VoiceLeave());

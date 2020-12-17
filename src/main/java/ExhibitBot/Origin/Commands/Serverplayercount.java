@@ -1,5 +1,6 @@
 package ExhibitBot.Origin.Commands;
 
+import ExhibitBot.Origin.Minecraft.minecraftServerInfo;
 import ExhibitBot.Origin.Other.Logging;
 import net.dv8tion.jda.api.events.message.MessageReceivedEvent;
 import net.dv8tion.jda.api.exceptions.PermissionException;
@@ -26,51 +27,15 @@ public class Serverplayercount extends ListenerAdapter {
     @Override
     public void onMessageReceived(MessageReceivedEvent e) {
         String message = e.getMessage().getContentRaw();
-
         if (message.equalsIgnoreCase(COMMAND_PREFIX + "playercount") && !(e.getAuthor().isBot())) {
-
-            try {
-                Socket sock = new Socket(SERVER_IP, 25565);
-
-                DataOutputStream out = new DataOutputStream(sock.getOutputStream());
-                DataInputStream in = new DataInputStream(sock.getInputStream());
-
-                out.write(0xFE);
-
-                int b;
-                StringBuffer str = new StringBuffer();
-                while ((b = in.read()) != -1) {
-                    if (b > 1) {
-                        str.append((char) b);
-                        //System.out.println((char)b);
-                    }
-                }
-
-
-
-                String lastFive = str.toString().substring(str.length()- 5);
-                String[] data = lastFive.split("§");
-                String onlinePlayers = data[0];
-
-                if (onlinePlayers.isEmpty()){
-                    onlinePlayers = data[1];
-                }
-
-//                String maxPlayers = data[2];
-
-                //String onlinePlayers = "1";
-                String maxPlayers = "32";
-
-                  e.getTextChannel().sendMessage(e.getAuthor().getAsMention() + " There are currently " +
-                          onlinePlayers + "/" + maxPlayers +  " players online on " + SERVER_IP).queue();
-                try {Logging.DataLog(e.getGuild().getName(), e.getAuthor().getName(), message, true, e.getGuild());} catch (PermissionException er){}
-
-
-            } catch (UnknownHostException ev) {
-                ev.printStackTrace();
-            } catch (IOException ev) {
+            minecraftServerInfo minecraftServerInfo = new minecraftServerInfo(SERVER_IP, 25565);
+            String onlinePlayers =  minecraftServerInfo.getOnlinePlayers();
+            if (onlinePlayers == null){
                 e.getTextChannel().sendMessage(e.getAuthor().getAsMention() + " The server is currently down or restarting, please try again later.").queue();
+                return;
             }
+            e.getTextChannel().sendMessage(e.getAuthor().getAsMention() + " There are currently " +
+                    onlinePlayers + "/" + minecraftServerInfo.getMaxPlayers() +  " players online on " + SERVER_IP).queue();
         }
     }
 }
