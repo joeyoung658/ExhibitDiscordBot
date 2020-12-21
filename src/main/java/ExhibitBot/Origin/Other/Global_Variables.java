@@ -1,6 +1,7 @@
 package ExhibitBot.Origin.Other;
 
 
+import net.dv8tion.jda.api.entities.Guild;
 import net.dv8tion.jda.api.entities.User;
 
 import java.util.ArrayList;
@@ -14,10 +15,13 @@ public class Global_Variables {
 
     public static final String COMMAND_PREFIX = ".";
 
+
+
     public static final List<User> USER_BANS = new ArrayList<User>();
     public static final String BOT_TOKEN = "";
     public static final String SERVER_IP = "play.allace.co.uk";
     public static final String WEBSITE = "https://www.allace.co.uk";
+    public static Guild allAceGuild = null;
     public static Date BotStartTime;
 
 }

@@ -9,15 +9,26 @@ import java.util.TimerTask;
 
 import static ExhibitBot.Origin.Other.Global_Variables.SERVER_IP;
 
+
 public class numPlayers extends TimerTask {
+
+    private Guild guild;
+    public numPlayers(Guild guild){
+        this.guild = guild;
+    }
+
     @Override
     public void run() {
-
-        Guild o = ;
-        GuildChannel guildChannel = o.getGuild().getGuildChannelById ("789203860836581416");
+        GuildChannel guildChannel = this.guild.getGuildChannelById ("790606246797377596");
         ChannelManager channelManager = guildChannel.getManager();
         minecraftServerInfo mcpc = new minecraftServerInfo(SERVER_IP,25565);
-        channelManager.setName ("Online Players: " + mcpc.getOnlinePlayers());
+        String channelName = "AA Online Players: " + mcpc.getOnlinePlayers();
+        channelManager.setName (channelName);
         channelManager.queue();
+        System.out.println("Server player count updated to " + channelName);
+    }
+
+    public Guild getGuild(){
+        return this.guild;
     }
 }

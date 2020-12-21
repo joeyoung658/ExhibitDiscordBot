@@ -8,6 +8,7 @@
 /Users/mac/Documents/App Development/Java/eM/eM/Plugin Development/eM/ExhibitDiscordBot/src/main/java/ExhibitBot/Origin/Commands/Author.java
 /Users/mac/Documents/App Development/Java/eM/eM/Plugin Development/eM/ExhibitDiscordBot/src/main/java/ExhibitBot/Origin/GuildMembers/NickChange.java
 /Users/mac/Documents/App Development/Java/eM/eM/Plugin Development/eM/ExhibitDiscordBot/src/main/java/ExhibitBot/Origin/Commands/Vote.java
+/Users/mac/Documents/App Development/Java/eM/eM/Plugin Development/eM/ExhibitDiscordBot/src/main/java/ExhibitBot/Origin/Minecraft/minecraftServerInfo.java
 /Users/mac/Documents/App Development/Java/eM/eM/Plugin Development/eM/ExhibitDiscordBot/src/main/java/ExhibitBot/Origin/Commands/GMT.java
 /Users/mac/Documents/App Development/Java/eM/eM/Plugin Development/eM/ExhibitDiscordBot/src/main/java/ExhibitBot/Origin/Commands/Hello.java
 /Users/mac/Documents/App Development/Java/eM/eM/Plugin Development/eM/ExhibitDiscordBot/src/main/java/ExhibitBot/Origin/GuildMembers/GuildLeave.java
@@ -17,6 +18,7 @@
 /Users/mac/Documents/App Development/Java/eM/eM/Plugin Development/eM/ExhibitDiscordBot/src/main/java/ExhibitBot/Origin/GuildMembers/GuildJoin.java
 /Users/mac/Documents/App Development/Java/eM/eM/Plugin Development/eM/ExhibitDiscordBot/src/main/java/ExhibitBot/Origin/Commands/Commands.java
 /Users/mac/Documents/App Development/Java/eM/eM/Plugin Development/eM/ExhibitDiscordBot/src/main/java/ExhibitBot/Origin/Commands/Serverplayercount.java
+/Users/mac/Documents/App Development/Java/eM/eM/Plugin Development/eM/ExhibitDiscordBot/src/main/java/ExhibitBot/Origin/channelUpdater/numPlayers.java
 /Users/mac/Documents/App Development/Java/eM/eM/Plugin Development/eM/ExhibitDiscordBot/src/main/java/ExhibitBot/Origin/GuildVoice/VoiceLeave.java
 /Users/mac/Documents/App Development/Java/eM/eM/Plugin Development/eM/ExhibitDiscordBot/src/main/java/ExhibitBot/Origin/Other/Global_Variables.java
 /Users/mac/Documents/App Development/Java/eM/eM/Plugin Development/eM/ExhibitDiscordBot/src/main/java/ExhibitBot/Origin/Other/WriteLog.java
