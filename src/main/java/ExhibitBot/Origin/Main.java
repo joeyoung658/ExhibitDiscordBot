@@ -61,10 +61,11 @@ public class Main {
         builder.addEventListeners(new Author());
         builder.addEventListeners(new UpTime());
         builder.addEventListeners(new McStats());
+        builder.addEventListeners(new Ban());
         builder.addEventListeners(new GMT());
         return builder;
     }
-    
+
     private static JDABuilder registerGuildVoiceEvents(JDABuilder builder){
         builder.addEventListeners(new VoiceJoin());
         builder.addEventListeners(new VoiceLeave());
