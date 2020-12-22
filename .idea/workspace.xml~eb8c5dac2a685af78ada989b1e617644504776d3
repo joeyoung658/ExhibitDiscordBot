@@ -1,0 +1,688 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="ExhibitDiscordBot:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="acc4bcd2-35e1-48e8-8963-e38037cc2990" name="Default" comment="Updating for AllAce discord server and updated to JDA 4.2.0_218">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ExhibitBot/Origin/Commands/Serverplayercount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ExhibitBot/Origin/Commands/Serverplayercount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ExhibitBot/Origin/Other/Global_Variables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ExhibitBot/Origin/Other/Global_Variables.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ExhibitBot/Origin/channelUpdater/numPlayers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ExhibitBot/Origin/channelUpdater/numPlayers.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/ExhibitDiscordBot$Main.coverage" NAME="Main Coverage Results" MODIFIED="1507562807629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>ExhibitBot.Origin.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Joe &lt;origin@exhibit-minecraft.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1kLXRHBKXMwsHRpvKbZ6yum2QLP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="exhibitdiscordbot" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../eMBungee" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ExhibitBot.Origin.Other" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
+      <command value="mvn deploy -x" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
+        <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
+      <method />
+    </configuration>
+    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExhibitBot.Origin.Main" />
+      <module name="ExhibitDiscordBot" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ExhibitBot.Origin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="passParentEnv" value="true" />
+      <setting name="grailsApplicationRoot" value="" />
+      <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
+      <setting name="depsClasspath" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExhibitDiscordBot-1.0.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/target/ExhibitDiscordBot-1.0.jar" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ExhibitDiscordBot.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/target/ExhibitDiscordBot-1.0-SNAPSHOT.jar" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <module name="" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JAR Application.ExhibitDiscordBot.jar" />
+      <item itemvalue="JAR Application.ExhibitDiscordBot-1.0.jar" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JAR Application.ExhibitDiscordBot-1.0.jar" />
+        <item itemvalue="JAR Application.ExhibitDiscordBot.jar" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="acc4bcd2-35e1-48e8-8963-e38037cc2990" name="Default" comment="" />
+      <created>1497366392368</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1497366392368</updated>
+      <workItem from="1497366397741" duration="3417000" />
+      <workItem from="1497456895366" duration="1218000" />
+      <workItem from="1497465832709" duration="9752000" />
+      <workItem from="1497555646961" duration="1441000" />
+      <workItem from="1497558211681" duration="829000" />
+      <workItem from="1497736463452" duration="1233000" />
+      <workItem from="1497885329726" duration="775000" />
+      <workItem from="1498504501743" duration="628000" />
+      <workItem from="1498507657056" duration="131000" />
+      <workItem from="1501343319202" duration="1527000" />
+      <workItem from="1501495587119" duration="616000" />
+      <workItem from="1501698796936" duration="10001000" />
+      <workItem from="1501709711669" duration="1055000" />
+      <workItem from="1501845900094" duration="3848000" />
+      <workItem from="1501926737739" duration="1203000" />
+      <workItem from="1507319101571" duration="3096000" />
+      <workItem from="1507322247677" duration="2404000" />
+      <workItem from="1507369821744" duration="314000" />
+      <workItem from="1507414832000" duration="1702000" />
+      <workItem from="1507554123382" duration="3857000" />
+      <workItem from="1507559461827" duration="7037000" />
+      <workItem from="1507569310651" duration="4652000" />
+      <workItem from="1507736712033" duration="12293000" />
+      <workItem from="1605480839050" duration="464000" />
+      <workItem from="1605522718091" duration="37000" />
+      <workItem from="1605808957144" duration="2810000" />
+      <workItem from="1605812502339" duration="5223000" />
+      <workItem from="1606733234033" duration="465000" />
+      <workItem from="1606734855188" duration="9000" />
+      <workItem from="1606823802928" duration="362000" />
+      <workItem from="1608210441464" duration="1343000" />
+      <workItem from="1608211858111" duration="93000" />
+      <workItem from="1608573004669" duration="561000" />
+    </task>
+    <task id="LOCAL-00001" summary="Bot">
+      <created>1497366914556</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1497366914556</updated>
+    </task>
+    <task id="LOCAL-00002" summary="New features">
+      <created>1497475153938</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1497475153938</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added a few new commands - McStats WIP">
+      <created>1501710039039</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1501710039039</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added a few new commands - McStats WIP">
+      <created>1501710264469</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1501710264469</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Updating for AllAce discord server and updated to JDA 4.2.0_218">
+      <created>1605814373263</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1605814373263</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Updating for AllAce discord server and updated to JDA 4.2.0_218">
+      <created>1605814524545</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1605814524545</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Updating for AllAce discord server and updated to JDA 4.2.0_218">
+      <created>1605820852691</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1605820852691</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Server player count to text channel">
+      <created>1608565916921</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1608565916921</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Bot" />
+    <MESSAGE value="New features" />
+    <MESSAGE value="Added a few new commands - McStats WIP" />
+    <MESSAGE value="Updating for AllAce discord server and updated to JDA 4.2.0_218" />
+    <MESSAGE value="Server player count to text channel" />
+    <option name="LAST_COMMIT_MESSAGE" value="Server player count to text channel" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="533" y="160" key="#com.intellij.ide.util.MemberChooser" timestamp="1608562855790">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="533" y="160" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/0.-900.1440.900@0.0.1440.900" timestamp="1608562855790" />
+    <state x="113" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1608563427940">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="113" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900/0.-900.1440.900@0.0.1440.900" timestamp="1608563427940" />
+    <state x="144" y="76" key="DiffContextDialog" timestamp="1605814390420">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="144" y="76" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1605814390420" />
+    <state width="1398" height="239" key="GridCell.Tab.0.bottom" timestamp="1608594412784">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="239" key="GridCell.Tab.0.bottom/0.0.1397.900/0.-875.1440.875@0.0.1397.900" timestamp="1608564597121" />
+    <state width="1398" height="239" key="GridCell.Tab.0.bottom/0.0.1440.900/0.-900.1440.900@0.0.1440.900" timestamp="1608565930499" />
+    <state width="1398" height="239" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1608594412784" />
+    <state width="1398" height="239" key="GridCell.Tab.0.bottom/0.25.1395.875@0.25.1395.875" timestamp="1605820105668" />
+    <state width="1398" height="239" key="GridCell.Tab.0.bottom/0.25.1397.875/0.-875.1440.875@0.25.1397.875" timestamp="1608565371713" />
+    <state width="1398" height="239" key="GridCell.Tab.0.center" timestamp="1608594412783">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="239" key="GridCell.Tab.0.center/0.0.1397.900/0.-875.1440.875@0.0.1397.900" timestamp="1608564597120" />
+    <state width="1398" height="239" key="GridCell.Tab.0.center/0.0.1440.900/0.-900.1440.900@0.0.1440.900" timestamp="1608565930498" />
+    <state width="1398" height="239" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1608594412783" />
+    <state width="1398" height="239" key="GridCell.Tab.0.center/0.25.1395.875@0.25.1395.875" timestamp="1605820105667" />
+    <state width="1398" height="239" key="GridCell.Tab.0.center/0.25.1397.875/0.-875.1440.875@0.25.1397.875" timestamp="1608565371711" />
+    <state width="1398" height="239" key="GridCell.Tab.0.left" timestamp="1608594412782">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="239" key="GridCell.Tab.0.left/0.0.1397.900/0.-875.1440.875@0.0.1397.900" timestamp="1608564597119" />
+    <state width="1398" height="239" key="GridCell.Tab.0.left/0.0.1440.900/0.-900.1440.900@0.0.1440.900" timestamp="1608565930497" />
+    <state width="1398" height="239" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1608594412782" />
+    <state width="1398" height="239" key="GridCell.Tab.0.left/0.25.1395.875@0.25.1395.875" timestamp="1605820105666" />
+    <state width="1398" height="239" key="GridCell.Tab.0.left/0.25.1397.875/0.-875.1440.875@0.25.1397.875" timestamp="1608565371711" />
+    <state width="1398" height="239" key="GridCell.Tab.0.right" timestamp="1608594412783">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="239" key="GridCell.Tab.0.right/0.0.1397.900/0.-875.1440.875@0.0.1397.900" timestamp="1608564597121" />
+    <state width="1398" height="239" key="GridCell.Tab.0.right/0.0.1440.900/0.-900.1440.900@0.0.1440.900" timestamp="1608565930498" />
+    <state width="1398" height="239" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1608594412783" />
+    <state width="1398" height="239" key="GridCell.Tab.0.right/0.25.1395.875@0.25.1395.875" timestamp="1605820105668" />
+    <state width="1398" height="239" key="GridCell.Tab.0.right/0.25.1397.875/0.-875.1440.875@0.25.1397.875" timestamp="1608565371712" />
+    <state width="1398" height="248" key="GridCell.Tab.1.bottom" timestamp="1605814281743">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="248" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1605814281743" />
+    <state width="1398" height="248" key="GridCell.Tab.1.bottom/0.25.1394.875@0.25.1394.875" timestamp="1605814068188" />
+    <state width="1398" height="248" key="GridCell.Tab.1.center" timestamp="1605814281742">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="248" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1605814281742" />
+    <state width="1398" height="248" key="GridCell.Tab.1.center/0.25.1394.875@0.25.1394.875" timestamp="1605814068174" />
+    <state width="1398" height="248" key="GridCell.Tab.1.left" timestamp="1605814281742">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="248" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1605814281742" />
+    <state width="1398" height="248" key="GridCell.Tab.1.left/0.25.1394.875@0.25.1394.875" timestamp="1605814068174" />
+    <state width="1398" height="248" key="GridCell.Tab.1.right" timestamp="1605814281743">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="248" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1605814281743" />
+    <state width="1398" height="248" key="GridCell.Tab.1.right/0.25.1394.875@0.25.1394.875" timestamp="1605814068175" />
+    <state x="258" y="109" key="Maven.ArtifactSearchDialog" timestamp="1605810192428">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="258" y="109" key="Maven.ArtifactSearchDialog/0.0.1440.900@0.0.1440.900" timestamp="1605810192428" />
+    <state x="229" y="86" key="SettingsEditor" timestamp="1608211785830">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="229" y="86" key="SettingsEditor/0.0.1440.900/0.-900.1440.900@0.0.1440.900" timestamp="1608211785830" />
+    <state x="320" y="187" key="Vcs.Push.Dialog.v2" timestamp="1608565918596">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="187" key="Vcs.Push.Dialog.v2/0.0.1440.900/0.-900.1440.900@0.0.1440.900" timestamp="1608565918596" />
+    <state x="320" y="187" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1605820857925" />
+    <state x="521" y="368" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605808975557">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="521" y="368" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1605808975557" />
+    <state x="262" y="183" width="916" height="623" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1608563913499">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="262" y="183" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1440.900/0.-900.1440.900@0.0.1440.900" timestamp="1608563913499" />
+    <state x="262" y="183" width="916" height="623" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1440.900@0.0.1440.900" timestamp="1605819087052" />
+    <state x="421" y="191" width="597" height="518" key="find.popup" timestamp="1605811693180">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="421" y="191" width="597" height="518" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1605811693180" />
+    <state x="385" y="210" width="670" height="675" key="run.anything.popup" timestamp="1605809499289">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="210" width="670" height="675" key="run.anything.popup/0.0.1440.900@0.0.1440.900" timestamp="1605809499289" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="4" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>ExhibitDiscordBot:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>guava-jdk5-17.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ExhibitDiscordBot</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.google.code.findbugs:jsr305:3.0.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="$PROJECT_DIR$" />
+    <option value="exec:java -D exec.mainClass=&lt;ExhibitBot.Origin.Main&gt;" />
+  </component>
+</project>
