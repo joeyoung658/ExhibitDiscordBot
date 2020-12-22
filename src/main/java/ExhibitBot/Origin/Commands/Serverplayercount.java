@@ -24,7 +24,7 @@ public class Serverplayercount extends ListenerAdapter {
             if (allAceGuild == null){
                 allAceGuild = e.getGuild();
                 Timer taskNum = new Timer();
-                taskNum.scheduleAtFixedRate(new numPlayers(e.getGuild()),1000, 10000);
+                taskNum.scheduleAtFixedRate(new numPlayers(e.getGuild()),1000, 300000);
             }
             if (onlinePlayers == null){
                 e.getTextChannel().sendMessage(e.getAuthor().getAsMention() + " The server is currently down or restarting, please try again later.").queue();

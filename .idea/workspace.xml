@@ -30,11 +30,8 @@
     <list default="true" id="acc4bcd2-35e1-48e8-8963-e38037cc2990" name="Default" comment="Updating for AllAce discord server and updated to JDA 4.2.0_218">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ExhibitBot/Origin/Commands/Serverplayercount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ExhibitBot/Origin/Commands/Serverplayercount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ExhibitBot/Origin/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ExhibitBot/Origin/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ExhibitBot/Origin/Other/Global_Variables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ExhibitBot/Origin/Other/Global_Variables.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ExhibitBot/Origin/channelUpdater/numPlayers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ExhibitBot/Origin/channelUpdater/numPlayers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -396,6 +393,7 @@
       <workItem from="1606823802928" duration="362000" />
       <workItem from="1608210441464" duration="1343000" />
       <workItem from="1608211858111" duration="93000" />
+      <workItem from="1608573004669" duration="561000" />
     </task>
     <task id="LOCAL-00001" summary="Bot">
       <created>1497366914556</created>
@@ -446,7 +444,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605820852691</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Server player count to text channel">
+      <created>1608565916921</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1608565916921</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -469,7 +474,8 @@
     <MESSAGE value="New features" />
     <MESSAGE value="Added a few new commands - McStats WIP" />
     <MESSAGE value="Updating for AllAce discord server and updated to JDA 4.2.0_218" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updating for AllAce discord server and updated to JDA 4.2.0_218" />
+    <MESSAGE value="Server player count to text channel" />
+    <option name="LAST_COMMIT_MESSAGE" value="Server player count to text channel" />
   </component>
   <component name="WindowStateProjectService">
     <state x="533" y="160" key="#com.intellij.ide.util.MemberChooser" timestamp="1608562855790">
@@ -484,36 +490,36 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="144" y="76" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1605814390420" />
-    <state width="1398" height="239" key="GridCell.Tab.0.bottom" timestamp="1608565659384">
+    <state width="1398" height="239" key="GridCell.Tab.0.bottom" timestamp="1608594412784">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="239" key="GridCell.Tab.0.bottom/0.0.1397.900/0.-875.1440.875@0.0.1397.900" timestamp="1608564597121" />
-    <state width="1398" height="239" key="GridCell.Tab.0.bottom/0.0.1440.900/0.-900.1440.900@0.0.1440.900" timestamp="1608565659384" />
-    <state width="1398" height="239" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1608056992879" />
+    <state width="1398" height="239" key="GridCell.Tab.0.bottom/0.0.1440.900/0.-900.1440.900@0.0.1440.900" timestamp="1608565930499" />
+    <state width="1398" height="239" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1608594412784" />
     <state width="1398" height="239" key="GridCell.Tab.0.bottom/0.25.1395.875@0.25.1395.875" timestamp="1605820105668" />
     <state width="1398" height="239" key="GridCell.Tab.0.bottom/0.25.1397.875/0.-875.1440.875@0.25.1397.875" timestamp="1608565371713" />
-    <state width="1398" height="239" key="GridCell.Tab.0.center" timestamp="1608565659383">
+    <state width="1398" height="239" key="GridCell.Tab.0.center" timestamp="1608594412783">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="239" key="GridCell.Tab.0.center/0.0.1397.900/0.-875.1440.875@0.0.1397.900" timestamp="1608564597120" />
-    <state width="1398" height="239" key="GridCell.Tab.0.center/0.0.1440.900/0.-900.1440.900@0.0.1440.900" timestamp="1608565659383" />
-    <state width="1398" height="239" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1608056992877" />
+    <state width="1398" height="239" key="GridCell.Tab.0.center/0.0.1440.900/0.-900.1440.900@0.0.1440.900" timestamp="1608565930498" />
+    <state width="1398" height="239" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1608594412783" />
     <state width="1398" height="239" key="GridCell.Tab.0.center/0.25.1395.875@0.25.1395.875" timestamp="1605820105667" />
     <state width="1398" height="239" key="GridCell.Tab.0.center/0.25.1397.875/0.-875.1440.875@0.25.1397.875" timestamp="1608565371711" />
-    <state width="1398" height="239" key="GridCell.Tab.0.left" timestamp="1608565659382">
+    <state width="1398" height="239" key="GridCell.Tab.0.left" timestamp="1608594412782">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="239" key="GridCell.Tab.0.left/0.0.1397.900/0.-875.1440.875@0.0.1397.900" timestamp="1608564597119" />
-    <state width="1398" height="239" key="GridCell.Tab.0.left/0.0.1440.900/0.-900.1440.900@0.0.1440.900" timestamp="1608565659382" />
-    <state width="1398" height="239" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1608056992876" />
+    <state width="1398" height="239" key="GridCell.Tab.0.left/0.0.1440.900/0.-900.1440.900@0.0.1440.900" timestamp="1608565930497" />
+    <state width="1398" height="239" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1608594412782" />
     <state width="1398" height="239" key="GridCell.Tab.0.left/0.25.1395.875@0.25.1395.875" timestamp="1605820105666" />
     <state width="1398" height="239" key="GridCell.Tab.0.left/0.25.1397.875/0.-875.1440.875@0.25.1397.875" timestamp="1608565371711" />
-    <state width="1398" height="239" key="GridCell.Tab.0.right" timestamp="1608565659383">
+    <state width="1398" height="239" key="GridCell.Tab.0.right" timestamp="1608594412783">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="239" key="GridCell.Tab.0.right/0.0.1397.900/0.-875.1440.875@0.0.1397.900" timestamp="1608564597121" />
-    <state width="1398" height="239" key="GridCell.Tab.0.right/0.0.1440.900/0.-900.1440.900@0.0.1440.900" timestamp="1608565659383" />
-    <state width="1398" height="239" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1608056992877" />
+    <state width="1398" height="239" key="GridCell.Tab.0.right/0.0.1440.900/0.-900.1440.900@0.0.1440.900" timestamp="1608565930498" />
+    <state width="1398" height="239" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1608594412783" />
     <state width="1398" height="239" key="GridCell.Tab.0.right/0.25.1395.875@0.25.1395.875" timestamp="1605820105668" />
     <state width="1398" height="239" key="GridCell.Tab.0.right/0.25.1397.875/0.-875.1440.875@0.25.1397.875" timestamp="1608565371712" />
     <state width="1398" height="248" key="GridCell.Tab.1.bottom" timestamp="1605814281743">
@@ -544,9 +550,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="229" y="86" key="SettingsEditor/0.0.1440.900/0.-900.1440.900@0.0.1440.900" timestamp="1608211785830" />
-    <state x="320" y="187" key="Vcs.Push.Dialog.v2" timestamp="1605820857925">
+    <state x="320" y="187" key="Vcs.Push.Dialog.v2" timestamp="1608565918596">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="320" y="187" key="Vcs.Push.Dialog.v2/0.0.1440.900/0.-900.1440.900@0.0.1440.900" timestamp="1608565918596" />
     <state x="320" y="187" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1605820857925" />
     <state x="521" y="368" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605808975557">
       <screen x="0" y="0" width="1440" height="900" />

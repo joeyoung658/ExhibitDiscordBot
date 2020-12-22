@@ -19,7 +19,7 @@ public class numPlayers extends TimerTask {
 
     @Override
     public void run() {
-        GuildChannel guildChannel = this.guild.getGuildChannelById ("790606246797377596");
+        GuildChannel guildChannel = this.guild.getGuildChannelById ("790637931608932353");
         ChannelManager channelManager = guildChannel.getManager();
         minecraftServerInfo mcpc = new minecraftServerInfo(SERVER_IP,25565);
         String channelName = "AA Online Players: " + mcpc.getOnlinePlayers();
