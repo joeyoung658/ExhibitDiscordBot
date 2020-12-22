@@ -1,4 +1,5 @@
 ExhibitBot/Origin/GuildVoice/VoiceJoin.class
+ExhibitBot/Origin/Commands/Ban.class
 ExhibitBot/Origin/GuildMembers/GuildUnban.class
 ExhibitBot/Origin/Other/Logging.class
 ExhibitBot/Origin/Commands/Author.class

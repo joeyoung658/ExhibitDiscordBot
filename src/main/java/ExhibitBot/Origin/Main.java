@@ -8,16 +8,13 @@ import ExhibitBot.Origin.GuildMembers.GuildUnban;
 import ExhibitBot.Origin.GuildVoice.VoiceJoin;
 import ExhibitBot.Origin.GuildVoice.VoiceLeave;
 import ExhibitBot.Origin.GuildVoice.VoiceMove;
-import ExhibitBot.Origin.channelUpdater.numPlayers;
 import net.dv8tion.jda.api.JDABuilder;
 import net.dv8tion.jda.api.entities.Activity;
-import net.dv8tion.jda.api.entities.Guild;
 import net.dv8tion.jda.api.utils.Compression;
 import net.dv8tion.jda.api.utils.cache.CacheFlag;
 
 import javax.security.auth.login.LoginException;
 import java.util.Date;
-import java.util.Timer;
 
 import static ExhibitBot.Origin.Other.Global_Variables.BOT_TOKEN;
 import static ExhibitBot.Origin.Other.Global_Variables.BotStartTime;

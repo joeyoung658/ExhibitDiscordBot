@@ -14,9 +14,6 @@ import java.util.List;
 public class Global_Variables {
 
     public static final String COMMAND_PREFIX = ".";
-
-
-
     public static final List<User> USER_BANS = new ArrayList<User>();
     public static final String BOT_TOKEN = "";
     public static final String SERVER_IP = "play.allace.co.uk";
